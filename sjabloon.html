@@ -45,7 +45,7 @@ header .sub{color:rgba(255,255,255,.78)}
 .winkels button .aantal b{display:block;font-size:18px}
 .winkels button[aria-pressed=true]{border-color:#ffd166}
 .winkels:has([aria-pressed=true]:not(.alle)) button[aria-pressed=false]{opacity:.55}
-.gdlogo{height:48px;aspect-ratio:590/260;overflow:hidden;position:relative}
+.gdlogo{height:48px;aspect-ratio:590/260;flex:none;overflow:hidden;position:relative}   /* flex:none: de uitsnede klopt alleen bij deze verhouding */
 .gdlogo img{position:absolute;width:242.5%;left:-14.4%;top:-9.6%;max-width:none}
 .balk{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rand)}
 .balk-in{padding-top:12px;padding-bottom:12px;display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
@@ -198,6 +198,9 @@ td .lk{box-shadow:none;border:1px solid var(--rand)}
 .meldknop:disabled{opacity:.6;cursor:progress}
 .meldhint{margin:8px 0 0;font-size:13px;background:rgba(0,0,0,.28);color:#fff;border-radius:10px;padding:8px 12px;max-width:560px}
 
+.groepknoppen{margin-left:auto;display:inline-flex;gap:6px}
+.knopje.klein{padding:3px 10px;font-size:13px}
+
 /* ---------- telefoon ---------- */
 .opties{display:contents}
 @media (max-width:700px){
@@ -208,11 +211,11 @@ td .lk{box-shadow:none;border:1px solid var(--rand)}
   .titelrij{justify-content:space-between}
   header .sub{font-size:12px;line-height:1.35}
   .winkels{width:100%;gap:8px;flex-wrap:nowrap}
-  .winkels button{flex:1 1 0;min-width:0;height:50px;padding:0 8px;gap:6px;justify-content:center;border-radius:10px}
+  .winkels button{flex:1 1 0;min-width:0;height:50px;padding:0 6px;gap:4px;justify-content:center;border-radius:10px}
   .winkels .lang{display:none}
   .winkels button .aantal b{font-size:15px}
   .winkels button .aantal{font-size:11px;text-align:center}
-  .gdlogo{height:34px}
+  .winkels button .gdlogo{height:30px}
   #logo-avw img{height:20px !important;max-width:100%}
   #logo-avw,#logo-gd{min-width:0;display:flex}
   .nieuws{margin-top:10px}
@@ -335,7 +338,7 @@ td .lk{box-shadow:none;border:1px solid var(--rand)}
 const DATA = /*DATA*/null;
 const LOGOS = /*LOGOS*/null || {};
 // Iconen: Tabler Icons (MIT), https://tabler.io/icons
-const ICONS = {"search": "<path d=\"M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0\" /> <path d=\"M21 21l-6 -6\" />", "sort-ascending": "<path d=\"M4 6l7 0\" /> <path d=\"M4 12l7 0\" /> <path d=\"M4 18l9 0\" /> <path d=\"M15 9l3 -3l3 3\" /> <path d=\"M18 6l0 12\" />", "sort-descending": "<path d=\"M4 6l9 0\" /> <path d=\"M4 12l7 0\" /> <path d=\"M4 18l7 0\" /> <path d=\"M15 15l3 3l3 -3\" /> <path d=\"M18 6l0 12\" />", "layout-grid": "<path d=\"M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\" /> <path d=\"M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\" /> <path d=\"M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\" /> <path d=\"M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\" />", "table": "<path d=\"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z\" /> <path d=\"M3 10h18\" /> <path d=\"M10 3v18\" />", "photo": "<path d=\"M15 8h.01\" /> <path d=\"M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12z\" /> <path d=\"M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5\" /> <path d=\"M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3\" />", "x": "<path d=\"M18 6l-12 12\" /> <path d=\"M6 6l12 12\" />", "chevron-left": "<path d=\"M15 6l-6 6l6 6\" />", "chevron-right": "<path d=\"M9 6l6 6l-6 6\" />", "external-link": "<path d=\"M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6\" /> <path d=\"M11 13l9 -9\" /> <path d=\"M15 4h5v5\" />", "sparkles": "<path d=\"M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z\" />", "circle-check": "<path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\" /> <path d=\"M9 12l2 2l4 -4\" />", "shopping-cart-off": "<path d=\"M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" /> <path d=\"M17 17a2 2 0 1 0 2 2\" /> <path d=\"M17 17h-11v-11\" /> <path d=\"M9.239 5.231l10.761 .769l-1 7h-2m-4 0h-7\" /> <path d=\"M3 3l18 18\" />", "circle-minus": "<path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\" /> <path d=\"M9 12l6 0\" />", "history": "<path d=\"M12 8l0 4l2 2\" /> <path d=\"M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5\" />", "fish": "<path d=\"M16.69 7.44a6.973 6.973 0 0 0 -1.69 4.56c0 1.747 .64 3.345 1.699 4.571\" /> <path d=\"M2 9.504c7.715 8.647 14.75 10.265 20 2.498c-5.25 -7.761 -12.285 -6.142 -20 2.504\" /> <path d=\"M18 11v.01\" /> <path d=\"M11.5 10.5c-.667 1 -.667 2 0 3\" />", "arrow-up": "<path d=\"M12 5l0 14\" /> <path d=\"M18 11l-6 -6\" /> <path d=\"M6 11l6 -6\" />", "arrow-down": "<path d=\"M12 5l0 14\" /> <path d=\"M18 13l-6 6\" /> <path d=\"M6 13l6 6\" />", "ruler-2": "<path d=\"M17 3l4 4l-14 14l-4 -4z\" /> <path d=\"M16 7l-1.5 -1.5\" /> <path d=\"M13 10l-1.5 -1.5\" /> <path d=\"M10 13l-1.5 -1.5\" /> <path d=\"M7 16l-1.5 -1.5\" />", "temperature": "<path d=\"M10 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5\" /> <path d=\"M10 9l4 0\" />", "droplet": "<path d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0c2.602 -2.105 3.262 -5.708 1.566 -8.546l-4.89 -7.26c-.42 -.625 -1.287 -.803 -1.936 -.397a1.376 1.376 0 0 0 -.41 .397l-4.893 7.26c-1.695 2.838 -1.035 6.441 1.567 8.546z\" />", "map-pin": "<path d=\"M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /> <path d=\"M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z\" />", "building-store": "<path d=\"M3 21l18 0\" /> <path d=\"M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4\" /> <path d=\"M5 21l0 -10.15\" /> <path d=\"M19 21l0 -10.15\" /> <path d=\"M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4\" />", "tag": "<path d=\"M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" /> <path d=\"M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z\" />", "category": "<path d=\"M4 4h6v6h-6z\" /> <path d=\"M14 4h6v6h-6z\" /> <path d=\"M4 14h6v6h-6z\" /> <path d=\"M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0\" />", "photo-off": "<path d=\"M15 8h.01\" /> <path d=\"M7 3h11a3 3 0 0 1 3 3v11m-.856 3.099a2.991 2.991 0 0 1 -2.144 .901h-12a3 3 0 0 1 -3 -3v-12c0 -.845 .349 -1.608 .91 -2.153\" /> <path d=\"M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5\" /> <path d=\"M16.33 12.338c.574 -.054 1.155 .166 1.67 .662l3 3\" /> <path d=\"M3 3l18 18\" />", "package": "<path d=\"M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5\" /> <path d=\"M12 12l8 -4.5\" /> <path d=\"M12 12l0 9\" /> <path d=\"M12 12l-8 -4.5\" /> <path d=\"M16 5.25l-8 4.5\" />", "box": "<path d=\"M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5\" /> <path d=\"M12 12l8 -4.5\" /> <path d=\"M12 12l0 9\" /> <path d=\"M12 12l-8 -4.5\" />", "info-circle": "<path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0\" /> <path d=\"M12 9h.01\" /> <path d=\"M11 12h1v4h1\" />", "heart": "<path d=\"M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572\" />", "adjustments-horizontal": "<path d=\"M14 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" /> <path d=\"M4 6l8 0\" /> <path d=\"M16 6l4 0\" /> <path d=\"M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" /> <path d=\"M4 12l2 0\" /> <path d=\"M10 12l10 0\" /> <path d=\"M17 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" /> <path d=\"M4 18l11 0\" /> <path d=\"M19 18l1 0\" />", "filter-off": "<path d=\"M8 4h12v2.172a2 2 0 0 1 -.586 1.414l-3.914 3.914m-.5 3.5v4l-6 2v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227\" /> <path d=\"M3 3l18 18\" />", "list": "<path d=\"M9 6l11 0\" /> <path d=\"M9 12l11 0\" /> <path d=\"M9 18l11 0\" /> <path d=\"M5 6l0 .01\" /> <path d=\"M5 12l0 .01\" /> <path d=\"M5 18l0 .01\" />", "bell": "<path d=\"M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6\" /> <path d=\"M9 17v1a3 3 0 0 0 6 0v-1\" />", "bell-ringing": "<path d=\"M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6\" /> <path d=\"M9 17v1a3 3 0 0 0 6 0v-1\" /> <path d=\"M21 6.727a11.05 11.05 0 0 0 -2.794 -3.727\" /> <path d=\"M3 6.727a11.05 11.05 0 0 1 2.792 -3.727\" />"};
+const ICONS = {"search": "<path d=\"M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0\" /> <path d=\"M21 21l-6 -6\" />", "sort-ascending": "<path d=\"M4 6l7 0\" /> <path d=\"M4 12l7 0\" /> <path d=\"M4 18l9 0\" /> <path d=\"M15 9l3 -3l3 3\" /> <path d=\"M18 6l0 12\" />", "sort-descending": "<path d=\"M4 6l9 0\" /> <path d=\"M4 12l7 0\" /> <path d=\"M4 18l7 0\" /> <path d=\"M15 15l3 3l3 -3\" /> <path d=\"M18 6l0 12\" />", "layout-grid": "<path d=\"M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\" /> <path d=\"M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\" /> <path d=\"M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\" /> <path d=\"M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\" />", "table": "<path d=\"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z\" /> <path d=\"M3 10h18\" /> <path d=\"M10 3v18\" />", "photo": "<path d=\"M15 8h.01\" /> <path d=\"M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12z\" /> <path d=\"M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5\" /> <path d=\"M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3\" />", "x": "<path d=\"M18 6l-12 12\" /> <path d=\"M6 6l12 12\" />", "chevron-left": "<path d=\"M15 6l-6 6l6 6\" />", "chevron-right": "<path d=\"M9 6l6 6l-6 6\" />", "external-link": "<path d=\"M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6\" /> <path d=\"M11 13l9 -9\" /> <path d=\"M15 4h5v5\" />", "sparkles": "<path d=\"M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z\" />", "circle-check": "<path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\" /> <path d=\"M9 12l2 2l4 -4\" />", "shopping-cart-off": "<path d=\"M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" /> <path d=\"M17 17a2 2 0 1 0 2 2\" /> <path d=\"M17 17h-11v-11\" /> <path d=\"M9.239 5.231l10.761 .769l-1 7h-2m-4 0h-7\" /> <path d=\"M3 3l18 18\" />", "circle-minus": "<path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\" /> <path d=\"M9 12l6 0\" />", "history": "<path d=\"M12 8l0 4l2 2\" /> <path d=\"M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5\" />", "fish": "<path d=\"M16.69 7.44a6.973 6.973 0 0 0 -1.69 4.56c0 1.747 .64 3.345 1.699 4.571\" /> <path d=\"M2 9.504c7.715 8.647 14.75 10.265 20 2.498c-5.25 -7.761 -12.285 -6.142 -20 2.504\" /> <path d=\"M18 11v.01\" /> <path d=\"M11.5 10.5c-.667 1 -.667 2 0 3\" />", "arrow-up": "<path d=\"M12 5l0 14\" /> <path d=\"M18 11l-6 -6\" /> <path d=\"M6 11l6 -6\" />", "arrow-down": "<path d=\"M12 5l0 14\" /> <path d=\"M18 13l-6 6\" /> <path d=\"M6 13l6 6\" />", "ruler-2": "<path d=\"M17 3l4 4l-14 14l-4 -4z\" /> <path d=\"M16 7l-1.5 -1.5\" /> <path d=\"M13 10l-1.5 -1.5\" /> <path d=\"M10 13l-1.5 -1.5\" /> <path d=\"M7 16l-1.5 -1.5\" />", "temperature": "<path d=\"M10 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5\" /> <path d=\"M10 9l4 0\" />", "droplet": "<path d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0c2.602 -2.105 3.262 -5.708 1.566 -8.546l-4.89 -7.26c-.42 -.625 -1.287 -.803 -1.936 -.397a1.376 1.376 0 0 0 -.41 .397l-4.893 7.26c-1.695 2.838 -1.035 6.441 1.567 8.546z\" />", "map-pin": "<path d=\"M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /> <path d=\"M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z\" />", "building-store": "<path d=\"M3 21l18 0\" /> <path d=\"M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4\" /> <path d=\"M5 21l0 -10.15\" /> <path d=\"M19 21l0 -10.15\" /> <path d=\"M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4\" />", "tag": "<path d=\"M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" /> <path d=\"M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z\" />", "category": "<path d=\"M4 4h6v6h-6z\" /> <path d=\"M14 4h6v6h-6z\" /> <path d=\"M4 14h6v6h-6z\" /> <path d=\"M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0\" />", "photo-off": "<path d=\"M15 8h.01\" /> <path d=\"M7 3h11a3 3 0 0 1 3 3v11m-.856 3.099a2.991 2.991 0 0 1 -2.144 .901h-12a3 3 0 0 1 -3 -3v-12c0 -.845 .349 -1.608 .91 -2.153\" /> <path d=\"M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5\" /> <path d=\"M16.33 12.338c.574 -.054 1.155 .166 1.67 .662l3 3\" /> <path d=\"M3 3l18 18\" />", "package": "<path d=\"M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5\" /> <path d=\"M12 12l8 -4.5\" /> <path d=\"M12 12l0 9\" /> <path d=\"M12 12l-8 -4.5\" /> <path d=\"M16 5.25l-8 4.5\" />", "box": "<path d=\"M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5\" /> <path d=\"M12 12l8 -4.5\" /> <path d=\"M12 12l0 9\" /> <path d=\"M12 12l-8 -4.5\" />", "info-circle": "<path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0\" /> <path d=\"M12 9h.01\" /> <path d=\"M11 12h1v4h1\" />", "heart": "<path d=\"M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572\" />", "adjustments-horizontal": "<path d=\"M14 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" /> <path d=\"M4 6l8 0\" /> <path d=\"M16 6l4 0\" /> <path d=\"M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" /> <path d=\"M4 12l2 0\" /> <path d=\"M10 12l10 0\" /> <path d=\"M17 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\" /> <path d=\"M4 18l11 0\" /> <path d=\"M19 18l1 0\" />", "filter-off": "<path d=\"M8 4h12v2.172a2 2 0 0 1 -.586 1.414l-3.914 3.914m-.5 3.5v4l-6 2v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227\" /> <path d=\"M3 3l18 18\" />", "list": "<path d=\"M9 6l11 0\" /> <path d=\"M9 12l11 0\" /> <path d=\"M9 18l11 0\" /> <path d=\"M5 6l0 .01\" /> <path d=\"M5 12l0 .01\" /> <path d=\"M5 18l0 .01\" />", "bell": "<path d=\"M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6\" /> <path d=\"M9 17v1a3 3 0 0 0 6 0v-1\" />", "bell-ringing": "<path d=\"M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6\" /> <path d=\"M9 17v1a3 3 0 0 0 6 0v-1\" /> <path d=\"M21 6.727a11.05 11.05 0 0 0 -2.794 -3.727\" /> <path d=\"M3 6.727a11.05 11.05 0 0 1 2.792 -3.727\" />", "chevrons-up": "<path d=\"M7 11l5 -5l5 5\" /> <path d=\"M7 17l5 -5l5 5\" />", "chevrons-down": "<path d=\"M7 7l5 5l5 -5\" /> <path d=\"M7 13l5 5l5 -5\" />"};
 const ic = (naam, g = 18) => `<svg class="ic" width="${g}" height="${g}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[naam] || ""}</svg>`;
 document.querySelectorAll("i[data-ic]").forEach(el => el.outerHTML = ic(el.dataset.ic, +el.dataset.g || 18));
 const VISSEN = DATA.vissen;
@@ -350,6 +353,31 @@ const staat = {zoek:"", winkel:"", soorten:new Set(), sorteer:"latijn", af:false
                groepeer:true, voorraad:false, beide:false,
                lijst:"", maxLengte:null, maxPrijs:null, temp:null, ph:null, herkomst:"", diep:false};
 let zichtbaar = [];
+
+// ---- voorkeuren: bewaard in deze browser (fotoformaat, weergave, sortering, groeperen, ingeklapte groepen)
+const VK = "vissenlijst.voorkeur";
+const ingeklapt = new Set();
+function bewaar() {
+  try {
+    localStorage.setItem(VK, JSON.stringify({formaat: +$("#formaat").value, weergave: staat.weergave, sorteer: staat.sorteer,
+      af: staat.af, groepeer: staat.groepeer, ingeklapt: [...ingeklapt]}));
+  } catch (e) {}
+}
+function laadVoorkeur() {
+  let v = {};
+  try { v = JSON.parse(localStorage.getItem(VK) || "{}") || {}; } catch (e) {}
+  if (v.formaat >= 130 && v.formaat <= 460) {
+    $("#formaat").value = v.formaat; document.documentElement.style.setProperty("--kaart", v.formaat + "px");
+  }
+  if (["raster", "tabel"].includes(v.weergave)) {
+    staat.weergave = v.weergave;
+    document.querySelectorAll("#weergave button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v.weergave));
+  }
+  if (["latijn", "naam", "prijs", "lengte", "winkel", "soort"].includes(v.sorteer)) staat.sorteer = v.sorteer;
+  if (typeof v.af === "boolean") staat.af = v.af;
+  if (typeof v.groepeer === "boolean") { staat.groepeer = v.groepeer; $("#groepeer").checked = v.groepeer; }
+  (Array.isArray(v.ingeklapt) ? v.ingeklapt : []).forEach(x => ingeklapt.add(String(x)));
+}
 
 // ---- zoekindex: zonder accenten/hoofdletters, plus afgeleide getallen voor de filters
 const plat = t => String(t ?? "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -475,10 +503,15 @@ function teken() {
     const rang = Object.fromEntries(namen.map((s, i) => [s, i]));
     zichtbaar = zichtbaar.map((v, i) => [v, i]).sort((a, b) => rang[a[0].soort] - rang[b[0].soort] || a[1] - b[1]).map(x => x[0]);
   }
+  // Ingeklapte groepen gelden alleen in het gewone overzicht; bij zoeken, een soortknop of de lijstjes blijft alles open.
+  const actief = !!(staat.zoek.trim() || staat.soorten.size || staat.lijst);
   const gd = zichtbaar.filter(v => v.winkel === "G&D Aquaria").length;
   $("#teller").innerHTML = `<b>${zichtbaar.length} vissen</b>
     <span class="legenda"><i class="gd"></i>${gd} bij G&amp;D Aquaria</span>
-    <span class="legenda"><i class="avw"></i>${zichtbaar.length - gd} bij Aquariumvissenwinkel</span>`;
+    <span class="legenda"><i class="avw"></i>${zichtbaar.length - gd} bij Aquariumvissenwinkel</span>
+    ${staat.groepeer && !actief && zichtbaar.length ? `<span class="groepknoppen">
+      <button class="knopje klein" data-groepen="dicht">${ic("chevrons-up", 15)}Alles inklappen</button>
+      <button class="knopje klein" data-groepen="open">${ic("chevrons-down", 15)}Alles uitklappen</button></span>` : ""}`;
 
   const render = rijen => staat.weergave === "raster"
     ? `<div class="raster">${rijen.map(([v, i]) => kaart(v, i)).join("")}</div>` : tabel(rijen);
@@ -491,17 +524,19 @@ function teken() {
     const groepen = new Map();
     metIndex.forEach(r => (groepen.get(r[0].soort) || groepen.set(r[0].soort, []).get(r[0].soort)).push(r));
     html = [...groepen].map(([s, rijen]) =>
-      `<details class="groep" open><summary>${ic("chevron-right", 20)}${esc(s)}<small>${rijen.length}</small></summary>${render(rijen)}</details>`).join("");
+      `<details class="groep" data-soort="${esc(s)}"${actief || !ingeklapt.has(s) ? " open" : ""}><summary>${ic("chevron-right", 20)}${esc(s)}<small>${rijen.length}</small></summary>${render(rijen)}</details>`).join("");
   } else html = render(metIndex);
   $("#lijst").innerHTML = html;
+  bewaar();
 }
 
 // ---- detailvenster
-let open = -1, fotoNr = 0;
-function toon(i) {
-  if (i < 0 || i >= zichtbaar.length) return;
+let open = -1, fotoNr = 0, dlgLijst = [];   // dlgLijst: de vissen waar vorige/volgende doorheen bladert
+function toon(i, lijst) {
+  if (lijst) dlgLijst = lijst;
+  if (i < 0 || i >= dlgLijst.length) return;
   open = i; fotoNr = 0;
-  const v = zichtbaar[i];
+  const v = dlgLijst[i];
   const rijen = [["Soort", v.soort, "category"], ["Winkel", v.winkel, "building-store"],
     ["Prijs", euro(v.prijs) || (v.winkel === "G&D Aquaria" ? "niet op de site (alleen afhalen)" : ""), "tag"],
     ["Voorraad", v.voorraad ? "op voorraad" : "uitverkocht", "package"], ["Lengte", v.lengte ? v.lengte + " cm" : "", "ruler-2"],
@@ -527,12 +562,12 @@ $("#dlg").addEventListener("click", e => {
   else if (e.target.matches(".vorige")) toon(open - 1);
   else if (e.target.matches(".volgende")) toon(open + 1);
   else if (e.target.dataset.n) {
-    $("#groot").src = zichtbaar[open].fotos[+e.target.dataset.n];
+    $("#groot").src = dlgLijst[open].fotos[+e.target.dataset.n];
     document.querySelectorAll(".duimen img").forEach(d => d.classList.toggle("aan", d === e.target));
   }
 });
 document.addEventListener("keydown", e => {
-  if ((e.key === "Enter" || e.key === " ") && e.target.matches(".kaart")) { e.preventDefault(); return toon(+e.target.dataset.i); }
+  if ((e.key === "Enter" || e.key === " ") && e.target.matches(".kaart")) { e.preventDefault(); return toon(+e.target.dataset.i, zichtbaar); }
   if (!$("#dlg").open) return;
   if (e.key === "ArrowLeft") toon(open - 1);
   if (e.key === "ArrowRight") toon(open + 1);
@@ -542,10 +577,16 @@ document.addEventListener("keydown", e => {
 $("#lijst").addEventListener("click", e => {
   const lk = e.target.closest("[data-like]");
   if (lk) return wissel(lk);
+  const kop = e.target.closest("details.groep > summary");
+  if (kop) {   // op het moment van klikken is de groep nog niet omgeklapt: open nu = wordt dicht
+    const d = kop.parentElement;
+    d.open ? ingeklapt.add(d.dataset.soort) : ingeklapt.delete(d.dataset.soort);
+    return bewaar();
+  }
   const s = e.target.closest("[data-sort]");
   if (s) { staat.af = staat.sorteer === s.dataset.sort ? !staat.af : false; staat.sorteer = s.dataset.sort; sync(); return teken(); }
   const k = e.target.closest("[data-i]");
-  if (k) toon(+k.dataset.i);
+  if (k) toon(+k.dataset.i, zichtbaar);
 });
 $("#chips").addEventListener("click", e => {
   const c = e.target.closest(".chip"); if (!c) return;
@@ -590,7 +631,13 @@ $("#sorteer").addEventListener("change", e => { staat.sorteer = e.target.value; 
 $("#richting").addEventListener("click", () => { staat.af = !staat.af; sync(); teken(); });
 for (const id of ["groepeer", "voorraad", "beide"])
   $("#" + id).addEventListener("change", e => { staat[id] = e.target.checked; teken(); });
-$("#formaat").addEventListener("input", e => document.documentElement.style.setProperty("--kaart", e.target.value + "px"));
+$("#formaat").addEventListener("input", e => { document.documentElement.style.setProperty("--kaart", e.target.value + "px"); bewaar(); });
+$("#teller").addEventListener("click", e => {
+  const b = e.target.closest("[data-groepen]"); if (!b) return;
+  ingeklapt.clear();
+  if (b.dataset.groepen === "dicht") VISSEN.forEach(v => ingeklapt.add(v.soort));
+  teken();
+});
 
 // ---- pushmeldingen van deze site (aanmeldingen worden bewaard door een Cloudflare Worker)
 const PUSH = /*PUSH*/null || {};
@@ -678,9 +725,12 @@ function tekenNieuws() {
 $("#nieuws").addEventListener("click", e => {
   const b = e.target.closest("button[data-id]"); if (!b) return;
   const v = VISSEN.find(x => x.id === b.dataset.id); if (!v) return;
-  zichtbaar = [v, ...zichtbaar.filter(x => x !== v)];  // zodat het detailvenster deze vis kan tonen
-  toon(0);
+  // Blader alleen door de vissen van dit rijtje; de hoofdlijst (zichtbaar) blijft ongemoeid.
+  const rij = [...b.closest(".strook").querySelectorAll("button[data-id]")]
+    .map(x => VISSEN.find(f => f.id === x.dataset.id)).filter(Boolean);
+  toon(rij.indexOf(v), rij);
 });
+laadVoorkeur();
 tekenNieuws();
 sync();
 

@@ -21,6 +21,17 @@ function geldig(sub) {
 
 export default {
   async fetch(request, env) {
+    try {
+      return await verwerk(request, env);
+    } catch (e) {   // nooit een kale Cloudflare-foutpagina: geef terug wat er misging
+      return new Response(JSON.stringify({fout: "interne fout", detail: String(e && e.message || e)}),
+        {status: 500, headers: {"Content-Type": "application/json"}});
+    }
+  },
+};
+
+async function verwerk(request, env) {
+  {
     const url = new URL(request.url);
     const origin = request.headers.get("Origin") || "";
     const toegestaan = env.ALLOWED_ORIGIN || "https://timdieters.github.io";
@@ -61,8 +72,10 @@ export default {
 
       if (url.pathname === "/list" && request.method === "GET") {
         const {keys} = await env.SUBS.list({limit: 1000});
-        const subs = await Promise.all(keys.map(k => env.SUBS.get(k.name, "json")));
-        return antwoord(subs.filter(Boolean));
+        // Als tekst lezen en zelf omzetten: een losse of kapotte waarde in de opslag mag de lijst niet laten crashen.
+        const ruw = await Promise.all(keys.map(k => env.SUBS.get(k.name)));
+        const subs = ruw.map(t => { try { return JSON.parse(t); } catch (e) { return null; } }).filter(geldig);
+        return antwoord(subs);
       }
       if (url.pathname === "/remove" && request.method === "POST") {
         const {endpoints = []} = await request.json();
@@ -71,5 +84,5 @@ export default {
       }
     }
     return antwoord({fout: "niet gevonden"}, 404);
-  },
-};
+  }
+}
