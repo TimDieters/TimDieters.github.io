@@ -1,4 +1,5 @@
 __pycache__/
+.geheim/
 # lokale kopieen; online wordt index.html gebruikt
 vissen.html
 vissen.json

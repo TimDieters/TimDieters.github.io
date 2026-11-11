@@ -3,6 +3,7 @@
 Gebruik:
     python scrape.py            # verversen: prijzen/voorraad + alleen nieuwe G&D-vissen (~1-2 min)
     python scrape.py --alles    # ook alle G&D-beschrijvingen opnieuw ophalen (traag, 15+ min)
+    python scrape.py --testmelding   # alleen een proefmelding sturen
     python scrape.py --bouw     # alleen vissen.html opnieuw bouwen uit vissen_raw.json
 """
 import html
@@ -176,20 +177,76 @@ def meldingstekst(w):
 
 
 def stuur_melding(w):
-    """Stuurt een pushmelding via ntfy.sh. Alleen als NTFY_TOPIC is ingesteld (bv. als GitHub-secret)."""
-    onderwerp = os.environ.get("NTFY_TOPIC", "").strip()
-    if not onderwerp:
-        return
+    """Stuurt na een run met wijzigingen een melding: naar de site-abonnees (webpush) en/of via ntfy."""
     titel, tekst = meldingstekst(w)
+    verstuur(titel, tekst)
+
+
+def verstuur(titel, tekst):
+    site = os.environ.get("VISSEN_URL", "https://timdieters.github.io/")
+    stuur_webpush(titel, tekst, site)
+    onderwerp = os.environ.get("NTFY_TOPIC", "").strip()
+    if onderwerp:  # optioneel: ook via de ntfy-app
+        try:
+            req = urllib.request.Request(
+                "https://ntfy.sh/" + onderwerp, data=tekst.encode("utf-8"), method="POST",
+                headers={"Title": titel.encode("ascii", "replace").decode(), "Tags": "fish", "Click": site})
+            urllib.request.urlopen(req, timeout=20).read()
+            print("ntfy-melding verstuurd:", titel)
+        except Exception as e:  # een mislukte melding mag de scrape niet laten mislukken
+            print("ntfy-melding versturen mislukt:", e)
+
+
+def stuur_webpush(titel, tekst, site):
+    """Pushmelding naar iedereen die op de site 'Meldingen' heeft aangezet.
+
+    Nodig: push_config.json (adres van de Cloudflare Worker) en de GitHub-secrets
+    VAPID_PRIVATE_KEY en PUSH_ADMIN_TOKEN. Ontbreekt er iets, dan gebeurt er niets.
+    """
+    sleutel = os.environ.get("VAPID_PRIVATE_KEY", "").strip()
+    token = os.environ.get("PUSH_ADMIN_TOKEN", "").strip()
+    pad = HIER / "push_config.json"
+    worker = json.loads(pad.read_text(encoding="utf-8")).get("worker", "").rstrip("/") if pad.exists() else ""
+    if not (sleutel and token and worker):
+        return
     try:
-        req = urllib.request.Request(
-            "https://ntfy.sh/" + onderwerp, data=tekst.encode("utf-8"), method="POST",
-            headers={"Title": titel.encode("ascii", "replace").decode(), "Tags": "fish",
-                     "Click": os.environ.get("VISSEN_URL", "https://timdieters.github.io/")})
-        urllib.request.urlopen(req, timeout=20).read()
-        print("Melding verstuurd:", titel)
-    except Exception as e:  # een mislukte melding mag de scrape niet laten mislukken
-        print("Melding versturen mislukt:", e)
+        from pywebpush import WebPushException, webpush
+    except ImportError:
+        print("Webpush overgeslagen: pakket 'pywebpush' ontbreekt (pip install pywebpush)")
+        return
+
+    def worker_verzoek(pad, data=None):
+        req = urllib.request.Request(worker + pad, data=json.dumps(data).encode() if data is not None else None,
+                                     headers={"Authorization": "Bearer " + token, "User-Agent": UA,
+                                              "Content-Type": "application/json"})
+        return json.loads(urllib.request.urlopen(req, timeout=30).read())
+
+    try:
+        abonnees = worker_verzoek("/list")
+    except Exception as e:  # noqa: BLE001
+        print("Webpush: lijst met abonnees ophalen mislukt:", e)
+        return
+    # Pushdiensten eisen een contactadres van de afzender; dit is het anonieme GitHub-adres.
+    contact = os.environ.get("VAPID_CONTACT", "mailto:TimDieters@users.noreply.github.com")
+    bericht = json.dumps({"title": titel, "body": tekst, "url": site})
+    gelukt, verlopen = 0, []
+    for abonnee in abonnees:
+        try:
+            webpush(subscription_info=abonnee, data=bericht, vapid_private_key=sleutel,
+                    vapid_claims={"sub": contact}, ttl=24 * 3600)
+            gelukt += 1
+        except WebPushException as e:
+            status = getattr(e.response, "status_code", None)
+            if status in (404, 410):  # browser heeft de aanmelding ingetrokken
+                verlopen.append(abonnee["endpoint"])
+            else:
+                print("Webpush mislukt voor een abonnee:", status or e)
+    if verlopen:
+        try:
+            worker_verzoek("/remove", {"endpoints": verlopen})
+        except Exception as e:  # noqa: BLE001
+            print("Webpush: opruimen mislukt:", e)
+    print(f"Webpush: {gelukt} van {len(abonnees)} verstuurd, {len(verlopen)} verlopen aanmelding(en) opgeruimd")
 
 
 def ophalen(alles=False):
@@ -259,6 +316,9 @@ def ophalen(alles=False):
 
 
 if __name__ == "__main__":
+    if "--testmelding" in sys.argv:  # alleen een proefmelding sturen, niets ophalen
+        verstuur("Vissenlijst: testmelding", "Meldingen werken. Je krijgt bericht als het aanbod verandert.")
+        sys.exit()
     if "--bouw" not in sys.argv:
         ophalen(alles="--alles" in sys.argv)
     import bouw

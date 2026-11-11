@@ -1,0 +1,14 @@
+{
+  "name": "Vissenlijst",
+  "short_name": "Vissenlijst",
+  "description": "Het aanbod van G&D Aquaria en Aquariumvissenwinkel naast elkaar",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c1519",
+  "theme_color": "#0b6477",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

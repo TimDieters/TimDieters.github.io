@@ -207,13 +207,20 @@ def logos():
     return uit
 
 
+def push_config():
+    """Adres van de Cloudflare Worker + publieke sleutel voor pushmeldingen (push_config.json)."""
+    pad = HIER / "push_config.json"
+    return json.dumps(json.loads(pad.read_text(encoding="utf-8"))) if pad.exists() else "null"
+
+
 def main():
     raw = json.loads((HIER / "vissen_raw.json").read_text(encoding="utf-8"))
     vissen = normaliseer(raw)
     (HIER / "vissen.json").write_text(json.dumps(vissen, ensure_ascii=False, indent=1), encoding="utf-8")
     data = json.dumps({"opgehaald": raw["opgehaald"], "vissen": vissen, "logboek": raw.get("logboek", [])}, ensure_ascii=False).replace("</", "<\\/")
     pagina = (HIER / "sjabloon.html").read_text(encoding="utf-8").replace("/*DATA*/null", data) \
-        .replace("/*LOGOS*/null", json.dumps(logos()))
+        .replace("/*LOGOS*/null", json.dumps(logos())) \
+        .replace("/*PUSH*/null", push_config())
     (HIER / "vissen.html").write_text(pagina, encoding="utf-8")
     (HIER / "index.html").write_text(pagina, encoding="utf-8")  # dezelfde pagina, voor GitHub Pages
     print(f"{len(vissen)} vissen -> vissen.html en vissen.json")

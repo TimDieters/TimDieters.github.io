@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 5 * * *"   # elke dag rond 06:17 (winter) / 07:17 (zomer) Nederlandse tijd
   workflow_dispatch:        # ook handmatig te starten via de knop "Run workflow"
+    inputs:
+      testmelding:
+        description: "Alleen een proefmelding sturen (niets ophalen)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -16,15 +21,24 @@ jobs:
     timeout-minutes: 30
     env:
       TZ: Europe/Amsterdam
-      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}   # geheime naam van je meldingenkanaal; leeg = geen meldingen
+      VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}   # sleutel waarmee pushmeldingen ondertekend worden
+      PUSH_ADMIN_TOKEN: ${{ secrets.PUSH_ADMIN_TOKEN }}     # toegang tot de lijst met abonnees in Cloudflare
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}                 # optioneel: ook melden via de ntfy-app
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Pakket voor pushmeldingen
+        run: pip install --quiet pywebpush
+      - name: Proefmelding sturen
+        if: ${{ inputs.testmelding }}
+        run: python scrape.py --testmelding
       - name: Vissen ophalen en pagina bouwen
+        if: ${{ !inputs.testmelding }}
         run: python scrape.py
       - name: Wijzigingen vastleggen
+        if: ${{ !inputs.testmelding }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
