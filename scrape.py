@@ -7,6 +7,7 @@ Gebruik:
 """
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -162,6 +163,35 @@ def verschil(vorig, nu):
     return {"datum": nu["opgehaald"], "vorige": vorig["opgehaald"], **w}
 
 
+def meldingstekst(w):
+    """Maakt titel en tekst voor een pushmelding uit een wijziging (zie verschil)."""
+    kopjes = [("nieuw", "Nieuw"), ("terug", "Weer op voorraad"), ("uitverkocht", "Net uitverkocht"), ("verwijderd", "Verdwenen")]
+    titel = "Vissenlijst: " + ", ".join(f"{len(w[k])} {t.lower()}" for k, t in kopjes if w[k])
+    regels = []
+    for k, t in kopjes:
+        if w[k]:
+            namen = [v["naam"] for v in w[k]]
+            regels.append(f"{t}: " + ", ".join(namen[:8]) + (f" en nog {len(namen) - 8}" if len(namen) > 8 else ""))
+    return titel, "\n".join(regels)
+
+
+def stuur_melding(w):
+    """Stuurt een pushmelding via ntfy.sh. Alleen als NTFY_TOPIC is ingesteld (bv. als GitHub-secret)."""
+    onderwerp = os.environ.get("NTFY_TOPIC", "").strip()
+    if not onderwerp:
+        return
+    titel, tekst = meldingstekst(w)
+    try:
+        req = urllib.request.Request(
+            "https://ntfy.sh/" + onderwerp, data=tekst.encode("utf-8"), method="POST",
+            headers={"Title": titel.encode("ascii", "replace").decode(), "Tags": "fish",
+                     "Click": os.environ.get("VISSEN_URL", "https://timdieters.github.io/")})
+        urllib.request.urlopen(req, timeout=20).read()
+        print("Melding verstuurd:", titel)
+    except Exception as e:  # een mislukte melding mag de scrape niet laten mislukken
+        print("Melding versturen mislukt:", e)
+
+
 def ophalen(alles=False):
     start = time.time()
     vorig = json.loads(RAW.read_text(encoding="utf-8")) if RAW.exists() else None
@@ -223,6 +253,7 @@ def ophalen(alles=False):
         wijziging = verschil(vorig, data)
         if wijziging:
             data["logboek"] = [wijziging] + data["logboek"][:29]
+            stuur_melding(wijziging)
     RAW.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Klaar in {time.time() - start:.0f}s: {len(gd)} + {len(avw)} producten -> {RAW.name}")
 
