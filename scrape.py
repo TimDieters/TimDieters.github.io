@@ -34,6 +34,9 @@ def get(url, pauze=0.25, pogingen=5):
         except Exception as e:  # noqa: BLE001
             if getattr(e, "code", 0) == 404:  # bestaat niet (bv. voorbij de laatste pagina): niet opnieuw proberen
                 return ""
+            if getattr(e, "code", 0) == 403:  # geblokkeerd (bv. G&D op de servers van GitHub): opnieuw proberen helpt niet
+                print("  mislukt:", url, e)
+                return ""
             if i == pogingen - 1:
                 print("  mislukt:", url, e)
                 return ""
