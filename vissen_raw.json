@@ -1,5 +1,5 @@
 {
- "opgehaald": "2026-11-11 16:47",
+ "opgehaald": "2026-11-12 14:16",
  "gd": [
   {
    "id": "gd-87913619",
@@ -5110,6 +5110,30 @@
    }
   },
   {
+   "id": "avw-net-botia",
+   "url": "https://aquariumvissenwinkel.nl/product/net-botia",
+   "naam": "Net Botia",
+   "categorie": "Botia's",
+   "beschrijving": "Een donker netpatroon op een lichte basis maakt deze botia herkenbaar. Sociale, actieve bodemvis voor een groep, met schuilplekken en een dekruit, vanaf 100 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Net-Botia.png"
+   ],
+   "prijs": "9.80",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Botia lohachata",
+    "Herkomst": "Azië",
+    "Familie": "Botiidae",
+    "Lengte": "9 cm",
+    "Temperatuur": "24,5 °C",
+    "PH-waarde": "6.0 – 7.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Bodem",
+    "Aquarium": "100 cm of groter"
+   }
+  },
+  {
    "id": "avw-platys-red-wagtail",
    "url": "https://aquariumvissenwinkel.nl/product/platys-red-wagtail",
    "naam": "Platy Red Wagtail",
@@ -5229,30 +5253,6 @@
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenboven",
-    "Aquarium": "100 cm of groter"
-   }
-  },
-  {
-   "id": "avw-net-botia",
-   "url": "https://aquariumvissenwinkel.nl/product/net-botia",
-   "naam": "Net Botia",
-   "categorie": "Botia's",
-   "beschrijving": "Een donker netpatroon op een lichte basis maakt deze botia herkenbaar. Sociale, actieve bodemvis voor een groep, met schuilplekken en een dekruit, vanaf 100 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Net-Botia.png"
-   ],
-   "prijs": "9.80",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Botia lohachata",
-    "Herkomst": "Azië",
-    "Familie": "Botiidae",
-    "Lengte": "9 cm",
-    "Temperatuur": "24,5 °C",
-    "PH-waarde": "6.0 – 7.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Bodem",
     "Aquarium": "100 cm of groter"
    }
   },
@@ -11154,6 +11154,8 @@
    }
   }
  ],
+ "gd_opgehaald": "2026-11-11 16:47",
+ "avw_opgehaald": "2026-11-12 14:16",
  "logboek": [
   {
    "datum": "2026-11-11 16:47",
