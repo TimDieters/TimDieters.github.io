@@ -263,10 +263,21 @@ def ophalen(alles=False):
     ex = ThreadPoolExecutor(6)
     avw_taken = [ex.submit(avw_detail, u) for u in urls]
 
+    nu_tijd = time.strftime("%Y-%m-%d %H:%M")
     print("G&D Aquaria: lijst ophalen...")
-    gd = gd_lijst()
+    gd_nieuw = gd_lijst()
+    gd_vorig = vorig["gd"] if vorig else []
+    # Veiligheidsrem: geeft de winkel (bijna) niets terug, dan is hij onbereikbaar of blokkeert hij ons
+    # (GitHub-servers krijgen bij G&D een 403). Dan blijven de vorige gegevens van die winkel staan.
+    gd_ok = bool(gd_nieuw) and len(gd_nieuw) >= len(gd_vorig) / 2
+    if gd_ok:
+        gd = gd_nieuw
+    else:
+        gd = gd_vorig
+        print(f"::warning::G&D Aquaria gaf {len(gd_nieuw)} vissen terug (vorige keer {len(gd_vorig)}); "
+              "waarschijnlijk geblokkeerd. De vorige G&D-gegevens blijven staan.")
     nieuw, gewijzigd = [], []
-    for item in gd:
+    for item in (gd if gd_ok else []):
         bekend = oud.get(item["id"])
         if not bekend:
             nieuw.append(item)
@@ -277,7 +288,8 @@ def ophalen(alles=False):
             if item["foto_groot"] and item["foto_groot"] not in item.get("fotos", []):
                 item["fotos"] = [item["foto_groot"]] + item.get("fotos", [])
     weg = [x["naam"] for i, x in oud.items() if i not in {g["id"] for g in gd}]
-    print(f"G&D Aquaria: {len(gd)} vissen - {len(nieuw)} nieuw, {len(gewijzigd)} gewijzigd, {len(weg)} verdwenen")
+    if gd_ok:
+        print(f"G&D Aquaria: {len(gd)} vissen - {len(nieuw)} nieuw, {len(gewijzigd)} gewijzigd, {len(weg)} verdwenen")
     for label, lijst in (("nieuw", [x["naam"] for x in nieuw]), ("gewijzigd", [x["naam"] for x in gewijzigd]), ("verdwenen", weg)):
         for naam in lijst if oud else []:
             print(f"  {label}: {naam}")
@@ -298,13 +310,21 @@ def ophalen(alles=False):
             avw.append(x)
     ex.shutdown()
 
-    # Veiligheidsrem: als een winkel (bijna) niets teruggeeft is hij onbereikbaar of blokkeert hij ons.
-    # Dan niets overschrijven, anders lijken alle vissen "verdwenen".
-    for naam, nu, eerder in (("G&D Aquaria", gd, vorig["gd"] if vorig else []), ("Aquariumvissenwinkel", avw, vorig["avw"] if vorig else [])):
-        if not nu or len(nu) < len(eerder) / 2:
-            sys.exit(f"Gestopt: {naam} gaf {len(nu)} producten terug (vorige keer {len(eerder)}). Er is niets opgeslagen.")
+    avw_vorig = vorig["avw"] if vorig else []
+    avw_ok = bool(avw) and len(avw) >= len(avw_vorig) / 2
+    if not avw_ok:
+        print(f"::warning::Aquariumvissenwinkel gaf {len(avw)} vissen terug (vorige keer {len(avw_vorig)}). "
+              "De vorige gegevens van deze winkel blijven staan.")
+        avw = avw_vorig
+    # Alleen stoppen als er niets te verversen valt (of bij de allereerste keer iets ontbreekt).
+    if not (gd_ok or avw_ok) or (not vorig and not (gd_ok and avw_ok)):
+        sys.exit("Gestopt: geen enkele winkel was bereikbaar. Er is niets opgeslagen.")
 
-    data = {"opgehaald": time.strftime("%Y-%m-%d %H:%M"), "gd": gd, "avw": avw,
+    def verversd(ok, sleutel):  # wanneer kwamen de gegevens van deze winkel voor het laatst echt binnen?
+        return nu_tijd if ok else (vorig.get(sleutel) or vorig["opgehaald"])
+
+    data = {"opgehaald": nu_tijd, "gd": gd, "avw": avw,
+            "gd_opgehaald": verversd(gd_ok, "gd_opgehaald"), "avw_opgehaald": verversd(avw_ok, "avw_opgehaald"),
             "logboek": vorig.get("logboek", []) if vorig else []}
     if vorig:
         wijziging = verschil(vorig, data)

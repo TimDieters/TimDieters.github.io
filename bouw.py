@@ -217,7 +217,8 @@ def main():
     raw = json.loads((HIER / "vissen_raw.json").read_text(encoding="utf-8"))
     vissen = normaliseer(raw)
     (HIER / "vissen.json").write_text(json.dumps(vissen, ensure_ascii=False, indent=1), encoding="utf-8")
-    data = json.dumps({"opgehaald": raw["opgehaald"], "vissen": vissen, "logboek": raw.get("logboek", [])}, ensure_ascii=False).replace("</", "<\\/")
+    data = json.dumps({"opgehaald": raw["opgehaald"], "vissen": vissen, "logboek": raw.get("logboek", []),
+                       "winkelTijd": {"G&D Aquaria": raw.get("gd_opgehaald"), "Aquariumvissenwinkel": raw.get("avw_opgehaald")}}, ensure_ascii=False).replace("</", "<\\/")
     pagina = (HIER / "sjabloon.html").read_text(encoding="utf-8").replace("/*DATA*/null", data) \
         .replace("/*LOGOS*/null", json.dumps(logos())) \
         .replace("/*PUSH*/null", push_config())

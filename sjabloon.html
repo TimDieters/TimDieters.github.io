@@ -281,6 +281,7 @@ td .lk{box-shadow:none;border:1px solid var(--rand)}
     </div>
     <p class="sub" id="sub"></p>
     <p class="meldhint" id="meldhint" hidden></p>
+    <p class="meldhint" id="oud" hidden></p>
   </div>
   <div class="winkels" id="winkel" aria-label="Kies een winkel">
     <button class="alle" data-w="" aria-pressed="true"><span class="aantal"><b id="n-alle"></b>beide<span class="lang"> winkels</span></span></button>
@@ -734,6 +735,13 @@ laadVoorkeur();
 tekenNieuws();
 sync();
 
+// Was een winkel bij de laatste update niet bereikbaar, dan zijn de gegevens van die winkel ouder: laat dat zien.
+(function () {
+  const oud = Object.entries(DATA.winkelTijd || {}).filter(([, d]) => d && d !== DATA.opgehaald);
+  if (!oud.length) return;
+  $("#oud").hidden = false;
+  $("#oud").textContent = oud.map(([w, d]) => `${w}: gegevens van ${d}`).join(" · ") + " — die winkel was bij de laatste update niet bereikbaar.";
+})();
 $("#sub").textContent = `Het aanbod van G&D Aquaria en Aquariumvissenwinkel naast elkaar — opgehaald op ${DATA.opgehaald}. Klik op een vis voor de grote foto.`;
 $("#logo-gd").innerHTML = LOGOS.gd ? `<span class="gdlogo logo"><img src="${LOGOS.gd}" alt="G&amp;D Aquaria"></span>` : "<b>G&amp;D Aquaria</b>";
 $("#logo-avw").innerHTML = LOGOS.avw ? `<img class="logo" style="height:30px" src="${LOGOS.avw}" alt="Aquariumvissenwinkel">` : "<b>Aquariumvissenwinkel</b>";
