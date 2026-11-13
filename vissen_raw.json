@@ -1,5 +1,5 @@
 {
- "opgehaald": "2026-11-12 14:50",
+ "opgehaald": "2026-11-13 14:12",
  "gd": [
   {
    "id": "gd-87913619",
@@ -3647,6 +3647,31 @@
    }
   },
   {
+   "id": "avw-koperzalm",
+   "url": "https://aquariumvissenwinkel.nl/product/koperzalm",
+   "naam": "Koperzalm",
+   "categorie": "Zalmen",
+   "beschrijving": "Een koperkleurig lijf met witte vinpunten maakt dit kleine zalmpje herkenbaar. In een groep van minstens 6 blijft hij vreedzaam, in een aquarium vanaf 80 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/koperzalm-1.png"
+   ],
+   "prijs": "2.00",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Hasemania nana",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Acestrorhamphidae",
+    "Lengte": "5 cm",
+    "Temperatuur": "24,5 °C",
+    "PH-waarde": "6.5 – 7.5",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "80 cm of groter",
+    "Groep": "Minstens 6 samen"
+   }
+  },
+  {
    "id": "avw-chinese-danio",
    "url": "https://aquariumvissenwinkel.nl/product/chinese-danio",
    "naam": "Chinese Danio",
@@ -3693,31 +3718,6 @@
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
     "Waterlaag": "Midden",
     "Aquarium": "60 cm of groter",
-    "Groep": "Minstens 6 samen"
-   }
-  },
-  {
-   "id": "avw-koperzalm",
-   "url": "https://aquariumvissenwinkel.nl/product/koperzalm",
-   "naam": "Koperzalm",
-   "categorie": "Zalmen",
-   "beschrijving": "Een koperkleurig lijf met witte vinpunten maakt dit kleine zalmpje herkenbaar. In een groep van minstens 6 blijft hij vreedzaam, in een aquarium vanaf 80 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/koperzalm-1.png"
-   ],
-   "prijs": "2.00",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Hasemania nana",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Acestrorhamphidae",
-    "Lengte": "5 cm",
-    "Temperatuur": "24,5 °C",
-    "PH-waarde": "6.5 – 7.5",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "80 cm of groter",
     "Groep": "Minstens 6 samen"
    }
   },
@@ -3845,6 +3845,30 @@
    }
   },
   {
+   "id": "avw-luipaard-danio",
+   "url": "https://aquariumvissenwinkel.nl/product/luipaard-danio",
+   "naam": "Luipaard Danio",
+   "categorie": "Danio's",
+   "beschrijving": "Kleurvorm van de zebradanio met stippen in plaats van strepen. Snel, vreedzaam en op zijn best in een groep met veel zwemruimte, in een bak vanaf 90 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/danio-rerio-var.-frankei.jpg"
+   ],
+   "prijs": "2.25",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Danio rerio",
+    "Herkomst": "Azië",
+    "Familie": "Danionidae",
+    "Lengte": "6 cm",
+    "Temperatuur": "21,5 °C",
+    "PH-waarde": "6.5 – 7.5",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "90 cm of groter"
+   }
+  },
+  {
    "id": "avw-chinese-danio-lf",
    "url": "https://aquariumvissenwinkel.nl/product/chinese-danio-lf",
    "naam": "Chinese Danio Lf",
@@ -3867,30 +3891,6 @@
     "Waterlaag": "Middenboven",
     "Aquarium": "60 cm of groter",
     "Groep": "Minstens 10 samen"
-   }
-  },
-  {
-   "id": "avw-luipaard-danio",
-   "url": "https://aquariumvissenwinkel.nl/product/luipaard-danio",
-   "naam": "Luipaard Danio",
-   "categorie": "Danio's",
-   "beschrijving": "Kleurvorm van de zebradanio met stippen in plaats van strepen. Snel, vreedzaam en op zijn best in een groep met veel zwemruimte, in een bak vanaf 90 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/danio-rerio-var.-frankei.jpg"
-   ],
-   "prijs": "2.25",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Danio rerio",
-    "Herkomst": "Azië",
-    "Familie": "Danionidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
-    "PH-waarde": "6.5 – 7.5",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "90 cm of groter"
    }
   },
   {
@@ -3942,6 +3942,31 @@
    }
   },
   {
+   "id": "avw-rode-rio",
+   "url": "https://aquariumvissenwinkel.nl/product/rode-rio",
+   "naam": "Rode Rio",
+   "categorie": "Overige vissen",
+   "beschrijving": "Zilverig voorlijf, vuurrood naar achteren en twee donkere streepjes achter de kieuw. De Rode Rio is zeer vreedzaam in een groep van minstens 8, vanaf 60 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Rode-Rio.jpg"
+   ],
+   "prijs": "1.70",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Hyphessobrycon flammeus",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Acestrorhamphidae",
+    "Lengte": "4 cm",
+    "Temperatuur": "24 °C",
+    "PH-waarde": "6.5 – 7.5",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Midden",
+    "Aquarium": "60 cm of groter",
+    "Groep": "Minstens 8 samen"
+   }
+  },
+  {
    "id": "avw-gupman-israel-mix",
    "url": "https://aquariumvissenwinkel.nl/product/gupman-israel-mix",
    "naam": "Guppy Man Israel Mix",
@@ -3986,31 +4011,6 @@
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
     "Waterlaag": "Middenonder",
-    "Aquarium": "60 cm of groter",
-    "Groep": "Minstens 8 samen"
-   }
-  },
-  {
-   "id": "avw-rode-rio",
-   "url": "https://aquariumvissenwinkel.nl/product/rode-rio",
-   "naam": "Rode Rio",
-   "categorie": "Overige vissen",
-   "beschrijving": "Zilverig voorlijf, vuurrood naar achteren en twee donkere streepjes achter de kieuw. De Rode Rio is zeer vreedzaam in een groep van minstens 8, vanaf 60 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Rode-Rio.jpg"
-   ],
-   "prijs": "1.70",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Hyphessobrycon flammeus",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Acestrorhamphidae",
-    "Lengte": "4 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "6.5 – 7.5",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Midden",
     "Aquarium": "60 cm of groter",
     "Groep": "Minstens 8 samen"
    }
@@ -4162,6 +4162,31 @@
    }
   },
   {
+   "id": "avw-corydoras-aeneus",
+   "url": "https://aquariumvissenwinkel.nl/product/corydoras-aeneus",
+   "naam": "Corydoras Aeneus",
+   "categorie": "Corydoras",
+   "beschrijving": "Deze metaalpantsermeerval glanst brons-groen en woelt het liefst met een groep van minstens 6 door zachte zandbodem. Geschikt voor een aquarium vanaf 80 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Corydoras_Aeneus.png"
+   ],
+   "prijs": "4.00",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Osteogaster aenea, voorheen Corydoras aeneus",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Callichthyidae",
+    "Lengte": "7 cm",
+    "Temperatuur": "24 °C",
+    "PH-waarde": "6.0 – 7.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Bodem",
+    "Aquarium": "80 cm of groter",
+    "Groep": "Minstens 6 samen"
+   }
+  },
+  {
    "id": "avw-otocinclus",
    "url": "https://aquariumvissenwinkel.nl/product/otocinclus",
    "naam": "Otocinclus",
@@ -4305,31 +4330,6 @@
     "Voeding": "Algen, Diepvriesvoer, Levend voer",
     "Waterlaag": "Bodem",
     "Aquarium": "60 cm of groter",
-    "Groep": "Minstens 6 samen"
-   }
-  },
-  {
-   "id": "avw-corydoras-aeneus",
-   "url": "https://aquariumvissenwinkel.nl/product/corydoras-aeneus",
-   "naam": "Corydoras Aeneus",
-   "categorie": "Corydoras",
-   "beschrijving": "Deze metaalpantsermeerval glanst brons-groen en woelt het liefst met een groep van minstens 6 door zachte zandbodem. Geschikt voor een aquarium vanaf 80 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Corydoras_Aeneus.png"
-   ],
-   "prijs": "4.00",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Osteogaster aenea, voorheen Corydoras aeneus",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Callichthyidae",
-    "Lengte": "7 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "6.0 – 7.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Bodem",
-    "Aquarium": "80 cm of groter",
     "Groep": "Minstens 6 samen"
    }
   },
@@ -5257,6 +5257,31 @@
    }
   },
   {
+   "id": "avw-neontetra-blue-eye-gold",
+   "url": "https://aquariumvissenwinkel.nl/product/neontetra-blue-eye-gold",
+   "naam": "Neontetra Blue Eye Gold",
+   "categorie": "Tetra's",
+   "beschrijving": "Deze kweekvorm van de neontetra heeft een goudgeel lijf en blauwe ogen. Hij komt het best tot zijn recht in een groep van minstens 8, in een aquarium vanaf 80 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/blue_eye_gold_neon_tetra_1.jpg"
+   ],
+   "prijs": "2.25",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Paracheirodon innesi",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Acestrorhamphidae",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
+    "PH-waarde": "6.5 – 7.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Middenboven",
+    "Aquarium": "80 cm of groter",
+    "Groep": "Minstens 8 samen"
+   }
+  },
+  {
    "id": "avw-zwarte-fantoomzalm",
    "url": "https://aquariumvissenwinkel.nl/product/zwarte-fantoomzalm",
    "naam": "Zwarte Fantoomzalm",
@@ -5755,6 +5780,30 @@
    }
   },
   {
+   "id": "avw-zwaarddrager-israel",
+   "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-israel",
+   "naam": "Zwaarddrager Israel Mix Lyretail",
+   "categorie": "Zwaarddragers",
+   "beschrijving": "Levendig en opvallend gekleurd, met het typische zwaard aan de staartvin van de mannetjes. Deze zwaarddrager komt uit Israëlische kweek en wil een aquarium vanaf 120 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2025/01/Zwaarddrager-israel.png"
+   ],
+   "prijs": "5.65",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Xiphophorus hellerii",
+    "Herkomst": "Midden-Amerika",
+    "Familie": "Poeciliidae",
+    "Lengte": "14 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "7.0 – 8.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Middenboven",
+    "Aquarium": "120 cm of groter"
+   }
+  },
+  {
    "id": "avw-gupman-micariff-yellow",
    "url": "https://aquariumvissenwinkel.nl/product/gupman-micariff-yellow",
    "naam": "Guppy Man Micariff Yellow",
@@ -5801,6 +5850,31 @@
     "Waterlaag": "Midden",
     "Aquarium": "240 cm of groter",
     "Groep": "Minstens 5 samen"
+   }
+  },
+  {
+   "id": "avw-kardinaal-tetra-voordeelset-10-stuks",
+   "url": "https://aquariumvissenwinkel.nl/product/kardinaal-tetra-voordeelset-10-stuks",
+   "naam": "Kardinaal Tetra Voordeelset 10 Stuks",
+   "categorie": "Tetra's",
+   "beschrijving": "De kardinaaltetra draagt een neonblauwe streep boven een felrode buik. Met deze voordeelset heb je er meteen meerdere, voor een aquarium vanaf 80 cm met licht zuur water.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Kardinaal-Tetra.png",
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/kardinaal_tetra.png"
+   ],
+   "prijs": "20.00",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Paracheirodon axelrodi",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Acestrorhamphidae",
+    "Lengte": "5 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "5.5 – 7",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Middenboven",
+    "Aquarium": "80 cm of groter"
    }
   },
   {
@@ -5874,31 +5948,6 @@
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenboven",
     "Aquarium": "100 cm of groter"
-   }
-  },
-  {
-   "id": "avw-neontetra-blue-eye-gold",
-   "url": "https://aquariumvissenwinkel.nl/product/neontetra-blue-eye-gold",
-   "naam": "Neontetra Blue Eye Gold",
-   "categorie": "Tetra's",
-   "beschrijving": "Deze kweekvorm van de neontetra heeft een goudgeel lijf en blauwe ogen. Hij komt het best tot zijn recht in een groep van minstens 8, in een aquarium vanaf 80 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/blue_eye_gold_neon_tetra_1.jpg"
-   ],
-   "prijs": "2.25",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Paracheirodon innesi",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Acestrorhamphidae",
-    "Lengte": "4 cm",
-    "Temperatuur": "23 °C",
-    "PH-waarde": "6.5 – 7.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Middenboven",
-    "Aquarium": "80 cm of groter",
-    "Groep": "Minstens 8 samen"
    }
   },
   {
@@ -5977,31 +6026,6 @@
    }
   },
   {
-   "id": "avw-kardinaal-tetra-voordeelset-10-stuks",
-   "url": "https://aquariumvissenwinkel.nl/product/kardinaal-tetra-voordeelset-10-stuks",
-   "naam": "Kardinaal Tetra Voordeelset 10 Stuks",
-   "categorie": "Tetra's",
-   "beschrijving": "De kardinaaltetra draagt een neonblauwe streep boven een felrode buik. Met deze voordeelset heb je er meteen meerdere, voor een aquarium vanaf 80 cm met licht zuur water.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Kardinaal-Tetra.png",
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/kardinaal_tetra.png"
-   ],
-   "prijs": "20.00",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Paracheirodon axelrodi",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Acestrorhamphidae",
-    "Lengte": "5 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "5.5 – 7",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Middenboven",
-    "Aquarium": "80 cm of groter"
-   }
-  },
-  {
    "id": "avw-platy-blauw",
    "url": "https://aquariumvissenwinkel.nl/product/platy-blauw",
    "naam": "Platy Blauw",
@@ -6047,30 +6071,6 @@
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Midden",
     "Aquarium": "60 cm of groter"
-   }
-  },
-  {
-   "id": "avw-zwaarddrager-israel",
-   "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-israel",
-   "naam": "Zwaarddrager Israel Mix Lyretail",
-   "categorie": "Zwaarddragers",
-   "beschrijving": "Levendig en opvallend gekleurd, met het typische zwaard aan de staartvin van de mannetjes. Deze zwaarddrager komt uit Israëlische kweek en wil een aquarium vanaf 120 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2025/01/Zwaarddrager-israel.png"
-   ],
-   "prijs": "5.65",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Xiphophorus hellerii",
-    "Herkomst": "Midden-Amerika",
-    "Familie": "Poeciliidae",
-    "Lengte": "14 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "7.0 – 8.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Middenboven",
-    "Aquarium": "120 cm of groter"
    }
   },
   {
@@ -6169,6 +6169,31 @@
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Boven",
     "Aquarium": "60 cm of groter"
+   }
+  },
+  {
+   "id": "avw-slakkenetende-slak",
+   "url": "https://aquariumvissenwinkel.nl/product/slakkenetende-slak",
+   "naam": "Slakkenetende Slak",
+   "categorie": "Slakken",
+   "beschrijving": "Geel-bruin gestreepte roofslak uit Zuidoost-Azië die kleine slakken zoals posthoorn- en torenslakken opeet. Schelp circa 2 cm, laat planten met rust.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/10/slakkenetende-slak.png"
+   ],
+   "prijs": "4.10",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Anentome helena",
+    "Herkomst": "Azië",
+    "Familie": "Nassariidae",
+    "Lengte": "2 cm",
+    "Temperatuur": "23,5 °C",
+    "PH-waarde": "6.5 – 8.0",
+    "Dieet": "Carnivoor",
+    "Voeding": "Levend voer, Diepvriesvoer, Rode muggenlarven, Granulaat",
+    "Waterlaag": "Bodem",
+    "Aquarium": "40 cm of groter",
+    "Groep": "Minstens 3 samen"
    }
   },
   {
@@ -6388,31 +6413,6 @@
     "Waterlaag": "Bodem",
     "Aquarium": "120 cm of groter",
     "Groep": "Minstens 6 samen"
-   }
-  },
-  {
-   "id": "avw-slakkenetende-slak",
-   "url": "https://aquariumvissenwinkel.nl/product/slakkenetende-slak",
-   "naam": "Slakkenetende Slak",
-   "categorie": "Slakken",
-   "beschrijving": "Geel-bruin gestreepte roofslak uit Zuidoost-Azië die kleine slakken zoals posthoorn- en torenslakken opeet. Schelp circa 2 cm, laat planten met rust.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/10/slakkenetende-slak.png"
-   ],
-   "prijs": "4.10",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Anentome helena",
-    "Herkomst": "Azië",
-    "Familie": "Nassariidae",
-    "Lengte": "2 cm",
-    "Temperatuur": "23,5 °C",
-    "PH-waarde": "6.5 – 8.0",
-    "Dieet": "Carnivoor",
-    "Voeding": "Levend voer, Diepvriesvoer, Rode muggenlarven, Granulaat",
-    "Waterlaag": "Bodem",
-    "Aquarium": "40 cm of groter",
-    "Groep": "Minstens 3 samen"
    }
   },
   {
@@ -7326,6 +7326,30 @@
    }
   },
   {
+   "id": "avw-zwaarddrager-israel-red-large",
+   "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-israel-red-large",
+   "naam": "Zwaarddrager Israel Red Large",
+   "categorie": "Zwaarddragers",
+   "beschrijving": "Een felrode zwaarddrager uit Israëlische kweek, het mannetje met een zwaard aan de staart. Houd meer vrouwtjes dan mannetjes, in een aquarium vanaf 120 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2025/01/Zwaarddrager-israel-red-L.png"
+   ],
+   "prijs": "5.25",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Xiphophorus hellerii",
+    "Herkomst": "Midden-Amerika",
+    "Familie": "Poeciliidae",
+    "Lengte": "12 cm",
+    "Temperatuur": "24,5 °C",
+    "PH-waarde": "7.0 – 8.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Middenboven",
+    "Aquarium": "120 cm of groter"
+   }
+  },
+  {
    "id": "avw-marmer-gourami",
    "url": "https://aquariumvissenwinkel.nl/product/marmer-gourami",
    "naam": "Marmer Gourami",
@@ -7811,30 +7835,6 @@
    }
   },
   {
-   "id": "avw-zwaarddrager-israel-red-large",
-   "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-israel-red-large",
-   "naam": "Zwaarddrager Israel Red Large",
-   "categorie": "Zwaarddragers",
-   "beschrijving": "Een felrode zwaarddrager uit Israëlische kweek, het mannetje met een zwaard aan de staart. Houd meer vrouwtjes dan mannetjes, in een aquarium vanaf 120 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2025/01/Zwaarddrager-israel-red-L.png"
-   ],
-   "prijs": "5.25",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Xiphophorus hellerii",
-    "Herkomst": "Midden-Amerika",
-    "Familie": "Poeciliidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "24,5 °C",
-    "PH-waarde": "7.0 – 8.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Middenboven",
-    "Aquarium": "120 cm of groter"
-   }
-  },
-  {
    "id": "avw-zwaarddrager-mix",
    "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-mix",
    "naam": "Zwaarddrager Mix",
@@ -7879,6 +7879,30 @@
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenboven",
     "Aquarium": "120 cm of groter"
+   }
+  },
+  {
+   "id": "avw-brokaatbarbeel",
+   "url": "https://aquariumvissenwinkel.nl/product/brokaatbarbeel",
+   "naam": "Brokaatbarbeel",
+   "categorie": "Barbelen",
+   "beschrijving": "De Brokaat Barbeel (Barbodes semifasciolatus) is een levendige scholenvis die met zijn goudgele kleur en energieke karakter het aquarium tot leven brengt, vooral in een goed beplant zoetwaterbiotoop.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/10/brokaat-barbeel-disabled.png"
+   ],
+   "prijs": "2.20",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Barbodes semifasciolatus",
+    "Herkomst": "Azië",
+    "Familie": "Cyprinidae",
+    "Lengte": "8 cm",
+    "Temperatuur": "22 °C",
+    "PH-waarde": "6.5 – 7.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Middenonder",
+    "Aquarium": "80 cm of groter"
    }
   },
   {
@@ -8493,6 +8517,30 @@
    }
   },
   {
+   "id": "avw-zwaarddrager-black",
+   "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-black",
+   "naam": "Zwaarddrager Black",
+   "categorie": "Zwaarddragers",
+   "beschrijving": "Diepzwarte zwaarddrager; alleen de mannetjes dragen het zwaard aan de staart. Actief en vreedzaam, met meer vrouwtjes dan mannen in een bak vanaf 120 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Zwaarddrager-Black.jpg"
+   ],
+   "prijs": "5.65",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Xiphophorus hellerii",
+    "Herkomst": "Midden-Amerika",
+    "Familie": "Poeciliidae",
+    "Lengte": "12 cm",
+    "Temperatuur": "24,5 °C",
+    "PH-waarde": "7.0 – 8.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Midden",
+    "Aquarium": "120 cm of groter"
+   }
+  },
+  {
    "id": "avw-zwaarddrager-tuxedo",
    "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-tuxedo",
    "naam": "Zwaarddrager Tuxedo",
@@ -8537,6 +8585,30 @@
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Midden",
+    "Aquarium": "60 cm of groter"
+   }
+  },
+  {
+   "id": "avw-apistogramma-cacatuoides",
+   "url": "https://aquariumvissenwinkel.nl/product/apistogramma-cacatuoides",
+   "naam": "Apistogramma Cacatuoides",
+   "categorie": "Cichliden",
+   "beschrijving": "Dwergcichlide met lange vinnen, ook wel kakadu-dwergcichlide genoemd. Mannen worden 7,5 cm, vrouwen 5 cm. Past met één koppel in een bak vanaf 60 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/11/apistogramma-cacatuoides.png"
+   ],
+   "prijs": "6.00",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Apistogramma cacatuoides",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Cichlidae",
+    "Lengte": "7.5 cm",
+    "Temperatuur": "26 °C",
+    "PH-waarde": "6.0 – 7.5",
+    "Dieet": "Carnivoor",
+    "Voeding": "Diepvriesvoer, Levend voer, Granulaat, Rode muggenlarven",
+    "Waterlaag": "Bodem",
     "Aquarium": "60 cm of groter"
    }
   },
@@ -8782,30 +8854,6 @@
    "prijs": "5.69",
    "voorraad": "InStock",
    "eigenschappen": {}
-  },
-  {
-   "id": "avw-zwaarddrager-black",
-   "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-black",
-   "naam": "Zwaarddrager Black",
-   "categorie": "Zwaarddragers",
-   "beschrijving": "Diepzwarte zwaarddrager; alleen de mannetjes dragen het zwaard aan de staart. Actief en vreedzaam, met meer vrouwtjes dan mannen in een bak vanaf 120 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Zwaarddrager-Black.jpg"
-   ],
-   "prijs": "5.65",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Xiphophorus hellerii",
-    "Herkomst": "Midden-Amerika",
-    "Familie": "Poeciliidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "24,5 °C",
-    "PH-waarde": "7.0 – 8.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Midden",
-    "Aquarium": "120 cm of groter"
-   }
   },
   {
    "id": "avw-rubber-pleco",
@@ -9249,30 +9297,6 @@
     "Waterlaag": "Bodem",
     "Aquarium": "80 cm of groter",
     "Groep": "Minstens 6 samen"
-   }
-  },
-  {
-   "id": "avw-apistogramma-cacatuoides",
-   "url": "https://aquariumvissenwinkel.nl/product/apistogramma-cacatuoides",
-   "naam": "Apistogramma Cacatuoides",
-   "categorie": "Cichliden",
-   "beschrijving": "Dwergcichlide met lange vinnen, ook wel kakadu-dwergcichlide genoemd. Mannen worden 7,5 cm, vrouwen 5 cm. Past met één koppel in een bak vanaf 60 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/11/apistogramma-cacatuoides.png"
-   ],
-   "prijs": "6.00",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Apistogramma cacatuoides",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Cichlidae",
-    "Lengte": "7.5 cm",
-    "Temperatuur": "26 °C",
-    "PH-waarde": "6.0 – 7.5",
-    "Dieet": "Carnivoor",
-    "Voeding": "Diepvriesvoer, Levend voer, Granulaat, Rode muggenlarven",
-    "Waterlaag": "Bodem",
-    "Aquarium": "60 cm of groter"
    }
   },
   {
@@ -10306,30 +10330,6 @@
    }
   },
   {
-   "id": "avw-brokaatbarbeel",
-   "url": "https://aquariumvissenwinkel.nl/product/brokaatbarbeel",
-   "naam": "Brokaatbarbeel",
-   "categorie": "Barbelen",
-   "beschrijving": "De Brokaat Barbeel (Barbodes semifasciolatus) is een levendige scholenvis die met zijn goudgele kleur en energieke karakter het aquarium tot leven brengt, vooral in een goed beplant zoetwaterbiotoop.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/10/brokaat-barbeel-disabled.png"
-   ],
-   "prijs": "2.20",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Barbodes semifasciolatus",
-    "Herkomst": "Azië",
-    "Familie": "Cyprinidae",
-    "Lengte": "8 cm",
-    "Temperatuur": "22 °C",
-    "PH-waarde": "6.5 – 7.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Middenonder",
-    "Aquarium": "80 cm of groter"
-   }
-  },
-  {
    "id": "avw-maanvis-gold-diamond",
    "url": "https://aquariumvissenwinkel.nl/product/maanvis-gold-diamond",
    "naam": "Maanvis Gold Diamond",
@@ -11155,7 +11155,7 @@
   }
  ],
  "gd_opgehaald": "2026-11-11 16:47",
- "avw_opgehaald": "2026-11-12 14:50",
+ "avw_opgehaald": "2026-11-13 14:12",
  "logboek": [
   {
    "datum": "2026-11-11 16:47",
