@@ -1,5 +1,5 @@
 {
- "opgehaald": "2026-11-17 15:34",
+ "opgehaald": "2026-11-18 15:10",
  "gd": [
   {
    "id": "gd-87913619",
@@ -4760,29 +4760,6 @@
    }
   },
   {
-   "id": "avw-zwaarddrager-red-wagtail",
-   "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-red-wagtail",
-   "naam": "Zwaarddrager Red Wagtail",
-   "categorie": "Zwaarddragers",
-   "beschrijving": "Rood lijf met zwarte vinnen: het wagtail-patroon maakt deze zwaarddrager goed herkenbaar. Geen scholenvis, wel graag met soortgenoten, in een aquarium vanaf 120 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2025/01/Zwaarddrager-red-wagtail.png"
-   ],
-   "prijs": "4.80",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Xiphophorus hellerii",
-    "Herkomst": "Midden-Amerika",
-    "Familie": "Poeciliidae",
-    "Lengte": "14 cm",
-    "Temperatuur": "24,5 °C",
-    "PH-waarde": "7.0 – 8.0",
-    "Dieet": "Omnivoor",
-    "Waterlaag": "Middenboven",
-    "Aquarium": "120 cm of groter"
-   }
-  },
-  {
    "id": "avw-maanvis",
    "url": "https://aquariumvissenwinkel.nl/product/maanvis",
    "naam": "Maanvis",
@@ -4804,6 +4781,29 @@
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenboven",
     "Aquarium": "90 cm of groter"
+   }
+  },
+  {
+   "id": "avw-zwaarddrager-red-wagtail",
+   "url": "https://aquariumvissenwinkel.nl/product/zwaarddrager-red-wagtail",
+   "naam": "Zwaarddrager Red Wagtail",
+   "categorie": "Zwaarddragers",
+   "beschrijving": "Rood lijf met zwarte vinnen: het wagtail-patroon maakt deze zwaarddrager goed herkenbaar. Geen scholenvis, wel graag met soortgenoten, in een aquarium vanaf 120 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2025/01/Zwaarddrager-red-wagtail.png"
+   ],
+   "prijs": "4.80",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Xiphophorus hellerii",
+    "Herkomst": "Midden-Amerika",
+    "Familie": "Poeciliidae",
+    "Lengte": "14 cm",
+    "Temperatuur": "24,5 °C",
+    "PH-waarde": "7.0 – 8.0",
+    "Dieet": "Omnivoor",
+    "Waterlaag": "Middenboven",
+    "Aquarium": "120 cm of groter"
    }
   },
   {
@@ -5665,6 +5665,31 @@
    }
   },
   {
+   "id": "avw-labidochromis-caeruleus-yellow",
+   "url": "https://aquariumvissenwinkel.nl/product/labidochromis-caeruleus-yellow",
+   "naam": "Labidochromis Caeruleus Yellow",
+   "categorie": "Cichliden",
+   "beschrijving": "Stralend geel met een zwarte band in de rugvin. Een relatief rustige mbuna die je houdt in een groep van minstens 4, met één man, in een aquarium vanaf 80 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/labidochromis-caeruleus-yellow.jpeg"
+   ],
+   "prijs": "10.50",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Labidochromis caeruleus",
+    "Herkomst": "Afrika",
+    "Familie": "Cichlidae",
+    "Lengte": "8 cm",
+    "Temperatuur": "24 °C",
+    "PH-waarde": "7.7 – 8.6",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "80 cm of groter",
+    "Groep": "Minstens 4 samen"
+   }
+  },
+  {
    "id": "avw-bijtje",
    "url": "https://aquariumvissenwinkel.nl/product/bijtje",
    "naam": "Bijtje",
@@ -5923,30 +5948,6 @@
    }
   },
   {
-   "id": "avw-antennebaarsje-bred-electric-blue",
-   "url": "https://aquariumvissenwinkel.nl/product/antennebaarsje-bred-electric-blue",
-   "naam": "Antennebaarsje Bred Electric Blue",
-   "categorie": "Dwergcichliden",
-   "beschrijving": "Felblauw van kop tot staart: de Electric Blue ramirezi is een van de meest opvallende dwergcichliden. Houd ze bij voorkeur als paar, in zacht water van 28 °C, vanaf 60 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/antennebaarsje-bred-electric-blue.jpeg"
-   ],
-   "prijs": "17.20",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Mikrogeophagus ramirezi",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Cichlidae",
-    "Lengte": "4 cm",
-    "Temperatuur": "28 °C",
-    "PH-waarde": "5.5 – 6.5",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Middenonder",
-    "Aquarium": "60 cm of groter"
-   }
-  },
-  {
    "id": "avw-maanvis-black",
    "url": "https://aquariumvissenwinkel.nl/product/maanvis-black",
    "naam": "Maanvis Black",
@@ -5968,6 +5969,30 @@
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenboven",
     "Aquarium": "100 cm of groter"
+   }
+  },
+  {
+   "id": "avw-antennebaarsje-bred-electric-blue",
+   "url": "https://aquariumvissenwinkel.nl/product/antennebaarsje-bred-electric-blue",
+   "naam": "Antennebaarsje Bred Electric Blue",
+   "categorie": "Dwergcichliden",
+   "beschrijving": "Felblauw van kop tot staart: de Electric Blue ramirezi is een van de meest opvallende dwergcichliden. Houd ze bij voorkeur als paar, in zacht water van 28 °C, vanaf 60 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/antennebaarsje-bred-electric-blue.jpeg"
+   ],
+   "prijs": "17.20",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Mikrogeophagus ramirezi",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Cichlidae",
+    "Lengte": "4 cm",
+    "Temperatuur": "28 °C",
+    "PH-waarde": "5.5 – 6.5",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Middenonder",
+    "Aquarium": "60 cm of groter"
    }
   },
   {
@@ -6021,31 +6046,6 @@
    }
   },
   {
-   "id": "avw-labidochromis-caeruleus-yellow",
-   "url": "https://aquariumvissenwinkel.nl/product/labidochromis-caeruleus-yellow",
-   "naam": "Labidochromis Caeruleus Yellow",
-   "categorie": "Cichliden",
-   "beschrijving": "Stralend geel met een zwarte band in de rugvin. Een relatief rustige mbuna die je houdt in een groep van minstens 4, met één man, in een aquarium vanaf 80 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/labidochromis-caeruleus-yellow.jpeg"
-   ],
-   "prijs": "10.50",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Labidochromis caeruleus",
-    "Herkomst": "Afrika",
-    "Familie": "Cichlidae",
-    "Lengte": "8 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "7.7 – 8.6",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "80 cm of groter",
-    "Groep": "Minstens 4 samen"
-   }
-  },
-  {
    "id": "avw-platy-blauw",
    "url": "https://aquariumvissenwinkel.nl/product/platy-blauw",
    "naam": "Platy Blauw",
@@ -6067,6 +6067,30 @@
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenboven",
     "Aquarium": "60 cm of groter"
+   }
+  },
+  {
+   "id": "avw-maanvis-gold",
+   "url": "https://aquariumvissenwinkel.nl/product/maanvis-gold",
+   "naam": "Maanvis Gold",
+   "categorie": "Maanvissen",
+   "beschrijving": "Goudgeel van kop tot staart: de Maanvis Gold is een klassieke kweekvorm van de scalare. Hij wordt tot 15 cm en wil een hoog aquarium vanaf 90 cm, zonder kleine visjes.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/maanvis_gold.jpg"
+   ],
+   "prijs": "10.85",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Pterophyllum scalare",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Cichlidae",
+    "Lengte": "15 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "6.5 – 7.5",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Middenonder",
+    "Aquarium": "90 cm of groter"
    }
   },
   {
@@ -6116,30 +6140,6 @@
     "Waterlaag": "Midden",
     "Aquarium": "80 cm of groter",
     "Groep": "Minstens 6 samen"
-   }
-  },
-  {
-   "id": "avw-maanvis-gold",
-   "url": "https://aquariumvissenwinkel.nl/product/maanvis-gold",
-   "naam": "Maanvis Gold",
-   "categorie": "Maanvissen",
-   "beschrijving": "Goudgeel van kop tot staart: de Maanvis Gold is een klassieke kweekvorm van de scalare. Hij wordt tot 15 cm en wil een hoog aquarium vanaf 90 cm, zonder kleine visjes.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/maanvis_gold.jpg"
-   ],
-   "prijs": "10.85",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Pterophyllum scalare",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Cichlidae",
-    "Lengte": "15 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "6.5 – 7.5",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Middenonder",
-    "Aquarium": "90 cm of groter"
    }
   },
   {
@@ -6238,6 +6238,30 @@
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenboven",
     "Aquarium": "60 cm of groter"
+   }
+  },
+  {
+   "id": "avw-cichlide-mix",
+   "url": "https://aquariumvissenwinkel.nl/product/cichlide-mix",
+   "naam": "Cichlide Mix",
+   "categorie": "Cichliden",
+   "beschrijving": "Een kleurrijke mix van mbuna, rotsbewonende cichliden uit het Malawimeer. Pittig en territoriaal, dus alleen samen met andere mbuna, in een rotsrijk aquarium vanaf 100 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/cichlide-mix-1.jpeg"
+   ],
+   "prijs": "7.35",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Pseudotropheus Mixed",
+    "Herkomst": "Afrika",
+    "Familie": "Cichlidae",
+    "Lengte": "12 cm",
+    "Temperatuur": "24 °C",
+    "PH-waarde": "7.0 – 8.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Middenonder",
+    "Aquarium": "120 cm of groter"
    }
   },
   {
@@ -6412,6 +6436,31 @@
    }
   },
   {
+   "id": "avw-lamprologus-leleupi-orange",
+   "url": "https://aquariumvissenwinkel.nl/product/lamprologus-leleupi-orange",
+   "naam": "Lamprologus Leleupi Orange",
+   "categorie": "Cichliden",
+   "beschrijving": "Feloranje van kop tot staart en thuis in rotsspleten. Tegen soortgenoten is de leleupi fel territoriaal, dus houd één paar in een Tanganyikabak vanaf 80 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/images_1.jpeg"
+   ],
+   "prijs": "9.00",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Neolamprologus leleupi",
+    "Herkomst": "Afrika",
+    "Familie": "Cichlidae",
+    "Lengte": "10 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "7.8 – 9.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "80 cm of groter",
+    "Groep": "Minstens 2 samen"
+   }
+  },
+  {
    "id": "avw-roodstaart-labeo",
    "url": "https://aquariumvissenwinkel.nl/product/roodstaart-labeo",
    "naam": "Roodstaart Labeo",
@@ -6485,25 +6534,49 @@
    }
   },
   {
-   "id": "avw-cichlide-mix",
-   "url": "https://aquariumvissenwinkel.nl/product/cichlide-mix",
-   "naam": "Cichlide Mix",
+   "id": "avw-malawi-cichlide-elongatus",
+   "url": "https://aquariumvissenwinkel.nl/product/malawi-cichlide-elongatus",
+   "naam": "Malawi Cichlide Elongatus",
    "categorie": "Cichliden",
-   "beschrijving": "Een kleurrijke mix van mbuna, rotsbewonende cichliden uit het Malawimeer. Pittig en territoriaal, dus alleen samen met andere mbuna, in een rotsrijk aquarium vanaf 100 cm.",
+   "beschrijving": "Een van de felste mbuna&#8217;s uit het Malawimeer. Houd een man met meerdere vrouwtjes tussen veel rotsen, samen met andere pittige mbuna&#8217;s, in een aquarium vanaf 120 cm.",
    "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/cichlide-mix-1.jpeg"
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/02/Malawi-elongatus.png"
    ],
-   "prijs": "7.35",
+   "prijs": "5.50",
    "voorraad": "InStock",
    "eigenschappen": {
-    "Latijnse naam": "Pseudotropheus Mixed",
+    "Latijnse naam": "Chindongo elongatus",
     "Herkomst": "Afrika",
     "Familie": "Cichlidae",
     "Lengte": "12 cm",
     "Temperatuur": "24 °C",
-    "PH-waarde": "7.0 – 8.0",
-    "Dieet": "Omnivoor",
+    "PH-waarde": "7.8 – 9.0",
+    "Dieet": "Herbivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Middenonder",
+    "Aquarium": "120 cm of groter"
+   }
+  },
+  {
+   "id": "avw-malawi-cichlide-saulosi",
+   "url": "https://aquariumvissenwinkel.nl/product/malawi-cichlide-saulosi",
+   "naam": "Malawi Cichlide Saulosi",
+   "categorie": "Cichliden",
+   "beschrijving": "Mannetjes zijn blauw met zwarte strepen, vrouwtjes felgeel: bij de Saulosi zie je het verschil meteen. Een relatief rustige dwerg-mbuna; houd per man meerdere vrouwtjes.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/saulosi_6.png"
+   ],
+   "prijs": "7.20",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Chindongo saulosi",
+    "Herkomst": "Afrika",
+    "Familie": "Cichlidae",
+    "Lengte": "8 cm",
+    "Temperatuur": "24 °C",
+    "PH-waarde": "7.0 – 8.0",
+    "Dieet": "Herbivoor",
+    "Voeding": "Algen, Granulaat, Levend voer",
     "Waterlaag": "Middenonder",
     "Aquarium": "120 cm of groter"
    }
@@ -6579,6 +6652,31 @@
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Boven",
     "Aquarium": "60 cm of groter"
+   }
+  },
+  {
+   "id": "avw-tanganyikacichlide",
+   "url": "https://aquariumvissenwinkel.nl/product/tanganyikacichlide",
+   "naam": "Tanganyikacichlide Julidochromis Marlieri",
+   "categorie": "Cichliden",
+   "beschrijving": "Julidochromis marlieri valt op met zijn zwart-beige dambordpatroon. Een territoriale rotsbewoner die je als paar houdt, in een rotsaquarium vanaf 120 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Tanganyikacichlide.jpg"
+   ],
+   "prijs": "10.55",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Julidochromis marlieri",
+    "Herkomst": "Afrika",
+    "Familie": "Cichlidae",
+    "Lengte": "12 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "7.8 – 9.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "120 cm of groter",
+    "Groep": "Minstens 2 samen"
    }
   },
   {
@@ -6899,31 +6997,6 @@
    }
   },
   {
-   "id": "avw-lamprologus-leleupi-orange",
-   "url": "https://aquariumvissenwinkel.nl/product/lamprologus-leleupi-orange",
-   "naam": "Lamprologus Leleupi Orange",
-   "categorie": "Cichliden",
-   "beschrijving": "Feloranje van kop tot staart en thuis in rotsspleten. Tegen soortgenoten is de leleupi fel territoriaal, dus houd één paar in een Tanganyikabak vanaf 80 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/images_1.jpeg"
-   ],
-   "prijs": "9.00",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Neolamprologus leleupi",
-    "Herkomst": "Afrika",
-    "Familie": "Cichlidae",
-    "Lengte": "10 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "7.8 – 9.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "80 cm of groter",
-    "Groep": "Minstens 2 samen"
-   }
-  },
-  {
    "id": "avw-eiland-barbeel",
    "url": "https://aquariumvissenwinkel.nl/product/eiland-barbeel",
    "naam": "Eiland Barbeel",
@@ -6946,79 +7019,6 @@
     "Waterlaag": "Middenonder",
     "Aquarium": "80 cm of groter",
     "Groep": "Minstens 6 samen"
-   }
-  },
-  {
-   "id": "avw-malawi-cichlide-elongatus",
-   "url": "https://aquariumvissenwinkel.nl/product/malawi-cichlide-elongatus",
-   "naam": "Malawi Cichlide Elongatus",
-   "categorie": "Cichliden",
-   "beschrijving": "Een van de felste mbuna&#8217;s uit het Malawimeer. Houd een man met meerdere vrouwtjes tussen veel rotsen, samen met andere pittige mbuna&#8217;s, in een aquarium vanaf 120 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/02/Malawi-elongatus.png"
-   ],
-   "prijs": "5.50",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Chindongo elongatus",
-    "Herkomst": "Afrika",
-    "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "7.8 – 9.0",
-    "Dieet": "Herbivoor",
-    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Middenonder",
-    "Aquarium": "120 cm of groter"
-   }
-  },
-  {
-   "id": "avw-malawi-cichlide-saulosi",
-   "url": "https://aquariumvissenwinkel.nl/product/malawi-cichlide-saulosi",
-   "naam": "Malawi Cichlide Saulosi",
-   "categorie": "Cichliden",
-   "beschrijving": "Mannetjes zijn blauw met zwarte strepen, vrouwtjes felgeel: bij de Saulosi zie je het verschil meteen. Een relatief rustige dwerg-mbuna; houd per man meerdere vrouwtjes.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/saulosi_6.png"
-   ],
-   "prijs": "7.20",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Chindongo saulosi",
-    "Herkomst": "Afrika",
-    "Familie": "Cichlidae",
-    "Lengte": "8 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "7.0 – 8.0",
-    "Dieet": "Herbivoor",
-    "Voeding": "Algen, Granulaat, Levend voer",
-    "Waterlaag": "Middenonder",
-    "Aquarium": "120 cm of groter"
-   }
-  },
-  {
-   "id": "avw-tanganyikacichlide",
-   "url": "https://aquariumvissenwinkel.nl/product/tanganyikacichlide",
-   "naam": "Tanganyikacichlide Julidochromis Marlieri",
-   "categorie": "Cichliden",
-   "beschrijving": "Julidochromis marlieri valt op met zijn zwart-beige dambordpatroon. Een territoriale rotsbewoner die je als paar houdt, in een rotsaquarium vanaf 120 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Tanganyikacichlide.jpg"
-   ],
-   "prijs": "10.55",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Julidochromis marlieri",
-    "Herkomst": "Afrika",
-    "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "7.8 – 9.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "120 cm of groter",
-    "Groep": "Minstens 2 samen"
    }
   },
   {
@@ -7423,6 +7423,56 @@
     "Waterlaag": "Midden",
     "Aquarium": "100 cm of groter",
     "Groep": "Minstens 6 samen"
+   }
+  },
+  {
+   "id": "avw-lamprologus-tretocephalus",
+   "url": "https://aquariumvissenwinkel.nl/product/lamprologus-tretocephalus",
+   "naam": "Lamprologus Tretocephalus",
+   "categorie": "Cichliden",
+   "beschrijving": "Donkere dwarsbanden en blauwe vinranden: de tretocephalus is een fel territoriale Tanganyikacichlide. Houd één paar, met stevige soorten die een andere zone gebruiken.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/75.jpg"
+   ],
+   "prijs": "16.25",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Neolamprologus tretocephalus",
+    "Herkomst": "Afrika",
+    "Familie": "Cichlidae",
+    "Lengte": "15 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "7.8 – 9.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "120 cm of groter",
+    "Groep": "Minstens 2 samen"
+   }
+  },
+  {
+   "id": "avw-lamprologus-daffodil",
+   "url": "https://aquariumvissenwinkel.nl/product/lamprologus-daffodil",
+   "naam": "Lamprologus Daffodil",
+   "categorie": "Cichliden",
+   "beschrijving": "Een sierlijke lierstaart met lichte vinranden. Een paar Daffodils vormt al snel een familiegroep die samen de jongen verdedigt; kies hard water en een bak vanaf 120 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/daffodil.png"
+   ],
+   "prijs": "14.75",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Neolamprologus pulcher",
+    "Herkomst": "Afrika",
+    "Familie": "Cichlidae",
+    "Lengte": "7 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "7.8 – 9.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "120 cm of groter",
+    "Groep": "Minstens 2 samen"
    }
   },
   {
@@ -8205,31 +8255,6 @@
    }
   },
   {
-   "id": "avw-lamprologus-tretocephalus",
-   "url": "https://aquariumvissenwinkel.nl/product/lamprologus-tretocephalus",
-   "naam": "Lamprologus Tretocephalus",
-   "categorie": "Cichliden",
-   "beschrijving": "Donkere dwarsbanden en blauwe vinranden: de tretocephalus is een fel territoriale Tanganyikacichlide. Houd één paar, met stevige soorten die een andere zone gebruiken.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/75.jpg"
-   ],
-   "prijs": "16.25",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Neolamprologus tretocephalus",
-    "Herkomst": "Afrika",
-    "Familie": "Cichlidae",
-    "Lengte": "15 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "7.8 – 9.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "120 cm of groter",
-    "Groep": "Minstens 2 samen"
-   }
-  },
-  {
    "id": "avw-sera-vipagran-baby-granules-100-ml",
    "url": "https://aquariumvissenwinkel.nl/product/sera-vipagran-baby-granules-100-ml",
    "naam": "Sera Vipagran Baby Granules 100 ml",
@@ -8461,31 +8486,6 @@
    "prijs": "12.49",
    "voorraad": "InStock",
    "eigenschappen": {}
-  },
-  {
-   "id": "avw-lamprologus-daffodil",
-   "url": "https://aquariumvissenwinkel.nl/product/lamprologus-daffodil",
-   "naam": "Lamprologus Daffodil",
-   "categorie": "Cichliden",
-   "beschrijving": "Een sierlijke lierstaart met lichte vinranden. Een paar Daffodils vormt al snel een familiegroep die samen de jongen verdedigt; kies hard water en een bak vanaf 120 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/daffodil.png"
-   ],
-   "prijs": "14.75",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Neolamprologus pulcher",
-    "Herkomst": "Afrika",
-    "Familie": "Cichlidae",
-    "Lengte": "7 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "7.8 – 9.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "120 cm of groter",
-    "Groep": "Minstens 2 samen"
-   }
   },
   {
    "id": "avw-lamprologus-compressiceps-red-fin",
@@ -8938,6 +8938,30 @@
    "eigenschappen": {}
   },
   {
+   "id": "avw-neon-tetra-voordeelset-10-stuks",
+   "url": "https://aquariumvissenwinkel.nl/product/neon-tetra-voordeelset-10-stuks",
+   "naam": "Neon Tetra Voordeelset 10 Stuks",
+   "categorie": "Tetra's",
+   "beschrijving": "Een blauwe lichtstreep met rood op de achterste helft: de neontetra is een van de bekendste scholenvissen. Met deze voordeelset heb je meteen een complete groep, voor een aquarium vanaf 80 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/neon-tetra-innesi.png"
+   ],
+   "prijs": "12.50",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Paracheirodon innesi",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Acestrorhamphidae",
+    "Lengte": "4 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "6.0 – 7.5",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Middenboven",
+    "Aquarium": "80 cm of groter"
+   }
+  },
+  {
    "id": "avw-rubber-pleco",
    "url": "https://aquariumvissenwinkel.nl/product/rubber-pleco",
    "naam": "Rubber Pleco",
@@ -9280,30 +9304,6 @@
     "Waterlaag": "Midden",
     "Aquarium": "60 cm of groter",
     "Groep": "Minstens 8 samen"
-   }
-  },
-  {
-   "id": "avw-neon-tetra-voordeelset-10-stuks",
-   "url": "https://aquariumvissenwinkel.nl/product/neon-tetra-voordeelset-10-stuks",
-   "naam": "Neon Tetra Voordeelset 10 Stuks",
-   "categorie": "Tetra's",
-   "beschrijving": "Een blauwe lichtstreep met rood op de achterste helft: de neontetra is een van de bekendste scholenvissen. Met deze voordeelset heb je meteen een complete groep, voor een aquarium vanaf 80 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/neon-tetra-innesi.png"
-   ],
-   "prijs": "12.50",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Paracheirodon innesi",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Acestrorhamphidae",
-    "Lengte": "4 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "6.0 – 7.5",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Middenboven",
-    "Aquarium": "80 cm of groter"
    }
   },
   {
@@ -11219,7 +11219,7 @@
   }
  ],
  "gd_opgehaald": "2026-11-11 16:47",
- "avw_opgehaald": "2026-11-17 15:34",
+ "avw_opgehaald": "2026-11-18 15:10",
  "logboek": [
   {
    "datum": "2026-11-16 14:44",
