@@ -1,5 +1,5 @@
 {
- "opgehaald": "2026-11-18 15:10",
+ "opgehaald": "2026-11-19 15:29",
  "gd": [
   {
    "id": "gd-87913619",
@@ -3573,31 +3573,6 @@
    }
   },
   {
-   "id": "avw-kegelvlek-espei",
-   "url": "https://aquariumvissenwinkel.nl/product/kegelvlek-espei",
-   "naam": "Kegelvlek Espei",
-   "categorie": "Rasbora",
-   "beschrijving": "Koperoranje met een zwarte, bijlvormige vlek: de Kegelvlek Espei wordt vaak verward met de hengeli. Een vreedzame scholenvis voor een groep van minstens 8, vanaf 60 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/Rasbora-espei.png"
-   ],
-   "prijs": "3.20",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Trigonostigma espei",
-    "Herkomst": "Azië",
-    "Familie": "Danionidae",
-    "Lengte": "4 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "6.0 – 7.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Midden",
-    "Aquarium": "60 cm of groter",
-    "Groep": "Minstens 8 samen"
-   }
-  },
-  {
    "id": "avw-roodkopzalm",
    "url": "https://aquariumvissenwinkel.nl/product/roodkopzalm",
    "naam": "Roodkopzalm",
@@ -3619,6 +3594,31 @@
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
     "Waterlaag": "Midden",
     "Aquarium": "90 cm of groter",
+    "Groep": "Minstens 8 samen"
+   }
+  },
+  {
+   "id": "avw-kegelvlek-espei",
+   "url": "https://aquariumvissenwinkel.nl/product/kegelvlek-espei",
+   "naam": "Kegelvlek Espei",
+   "categorie": "Rasbora",
+   "beschrijving": "Koperoranje met een zwarte, bijlvormige vlek: de Kegelvlek Espei wordt vaak verward met de hengeli. Een vreedzame scholenvis voor een groep van minstens 8, vanaf 60 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/Rasbora-espei.png"
+   ],
+   "prijs": "3.20",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Trigonostigma espei",
+    "Herkomst": "Azië",
+    "Familie": "Danionidae",
+    "Lengte": "4 cm",
+    "Temperatuur": "24 °C",
+    "PH-waarde": "6.0 – 7.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Midden",
+    "Aquarium": "60 cm of groter",
     "Groep": "Minstens 8 samen"
    }
   },
@@ -3896,30 +3896,6 @@
    }
   },
   {
-   "id": "avw-slak-zebra",
-   "url": "https://aquariumvissenwinkel.nl/product/slak-zebra",
-   "naam": "Slak Zebra",
-   "categorie": "Slakken",
-   "beschrijving": "Een zwart-geel gestreept huisje met kleine hoorntjes en een flinke eetlust voor algen. De Slak Zebra laat planten met rust en plant zich in zoet water niet voort.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Slak-zebra.jpg"
-   ],
-   "prijs": "3.65",
-   "voorraad": "OutOfStock",
-   "eigenschappen": {
-    "Latijnse naam": "Clithon corona",
-    "Herkomst": "Azië",
-    "Familie": "Neritidae",
-    "Lengte": "2.5 cm",
-    "Temperatuur": "21,5 °C",
-    "PH-waarde": "6.5 – 7.5",
-    "Dieet": "Omnivoor",
-    "Voeding": "Algen, Bodemvuil, Granulaat",
-    "Waterlaag": "Bodem",
-    "Aquarium": "60 cm of groter"
-   }
-  },
-  {
    "id": "avw-dwerg-kogelvis",
    "url": "https://aquariumvissenwinkel.nl/product/dwerg-kogelvis",
    "naam": "Dwerg Kogelvis",
@@ -3940,6 +3916,30 @@
     "Dieet": "Carnivoor",
     "Voeding": "Diepvriesvoer, Levend voer",
     "Waterlaag": "Midden",
+    "Aquarium": "60 cm of groter"
+   }
+  },
+  {
+   "id": "avw-slak-zebra",
+   "url": "https://aquariumvissenwinkel.nl/product/slak-zebra",
+   "naam": "Slak Zebra",
+   "categorie": "Slakken",
+   "beschrijving": "Een zwart-geel gestreept huisje met kleine hoorntjes en een flinke eetlust voor algen. De Slak Zebra laat planten met rust en plant zich in zoet water niet voort.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Slak-zebra.jpg"
+   ],
+   "prijs": "3.65",
+   "voorraad": "OutOfStock",
+   "eigenschappen": {
+    "Latijnse naam": "Clithon corona",
+    "Herkomst": "Azië",
+    "Familie": "Neritidae",
+    "Lengte": "2.5 cm",
+    "Temperatuur": "21,5 °C",
+    "PH-waarde": "6.5 – 7.5",
+    "Dieet": "Omnivoor",
+    "Voeding": "Algen, Bodemvuil, Granulaat",
+    "Waterlaag": "Bodem",
     "Aquarium": "60 cm of groter"
    }
   },
@@ -8582,7 +8582,7 @@
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Zwaarddrager-Black.jpg"
    ],
-   "prijs": "5.65",
+   "prijs": "6.40",
    "voorraad": "InStock",
    "eigenschappen": {
     "Latijnse naam": "Xiphophorus hellerii",
@@ -9440,7 +9440,7 @@
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/10/purperkopbarbeel.png"
    ],
-   "prijs": "5.30",
+   "prijs": "7.50",
    "voorraad": "InStock",
    "eigenschappen": {
     "Latijnse naam": "Pethia nigrofasciata, voorheen Puntius nigrofasciatus",
@@ -11219,7 +11219,7 @@
   }
  ],
  "gd_opgehaald": "2026-11-11 16:47",
- "avw_opgehaald": "2026-11-18 15:10",
+ "avw_opgehaald": "2026-11-19 15:29",
  "logboek": [
   {
    "datum": "2026-11-16 14:44",
