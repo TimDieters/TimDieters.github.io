@@ -1,5 +1,5 @@
 {
- "opgehaald": "2026-11-19 15:29",
+ "opgehaald": "2026-11-20 15:06",
  "gd": [
   {
    "id": "gd-87913619",
@@ -3510,7 +3510,7 @@
    "prijs": "2.55",
    "voorraad": "InStock",
    "eigenschappen": {
-    "Latijnse naam": "Neocaridina davidi",
+    "Latijnse naam": "Neocaridina davidi, voorheen Neocaridina heteropoda",
     "Herkomst": "Azië",
     "Familie": "Atyidae",
     "Lengte": "3.5 cm",
@@ -3519,7 +3519,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Bodem",
-    "Aquarium": "60 cm of groter",
+    "Aquarium": "40 cm of groter",
     "Groep": "Minstens 10 samen"
    }
   },
@@ -3539,7 +3539,7 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Acestrorhamphidae",
     "Lengte": "4 cm",
-    "Temperatuur": "25 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "6.0 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
@@ -3564,37 +3564,12 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Boven",
     "Aquarium": "60 cm of groter"
-   }
-  },
-  {
-   "id": "avw-roodkopzalm",
-   "url": "https://aquariumvissenwinkel.nl/product/roodkopzalm",
-   "naam": "Roodkopzalm",
-   "categorie": "Zalmen",
-   "beschrijving": "Een rode kop, een zwart-wit gestreepte staart en strak scholend gedrag. Deze vreedzame zalm hoort in een flinke groep, in een aquarium vanaf 90 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Roodkopzalm-1.jpg"
-   ],
-   "prijs": "3.40",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Petitella bleheri",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Acestrorhamphidae",
-    "Lengte": "4 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "6.0 – 6.5",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "90 cm of groter",
-    "Groep": "Minstens 8 samen"
    }
   },
   {
@@ -3623,9 +3598,34 @@
    }
   },
   {
+   "id": "avw-roodkopzalm",
+   "url": "https://aquariumvissenwinkel.nl/product/roodkopzalm",
+   "naam": "Roodkopzalm",
+   "categorie": "Zalmen",
+   "beschrijving": "Een rode kop, een zwart-wit gestreepte staart en strak scholend gedrag. Deze vreedzame zalm hoort in een flinke groep, in een aquarium vanaf 90 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Roodkopzalm-1.jpg"
+   ],
+   "prijs": "3.40",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Petitella bleheri",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Acestrorhamphidae",
+    "Lengte": "4 cm",
+    "Temperatuur": "25 °C",
+    "PH-waarde": "6.0 – 6.5",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "90 cm of groter",
+    "Groep": "Minstens 8 samen"
+   }
+  },
+  {
    "id": "avw-rouw-tetra",
    "url": "https://aquariumvissenwinkel.nl/product/rouw-tetra",
-   "naam": "Rouw Tetra",
+   "naam": "Rouwtetra",
    "categorie": "Tetra's",
    "beschrijving": "Zilvergrijs met zwarte dwarsbanden en een donkere achterhelft. In een groep van minstens 12 blijft deze stevige tetra vreedzaam, in een aquarium vanaf 60 cm.",
    "fotos": [
@@ -3762,7 +3762,7 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Acestrorhamphidae",
     "Lengte": "5 cm",
-    "Temperatuur": "24,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "6.5 – 7.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
@@ -3824,7 +3824,7 @@
    "id": "avw-half-gestreepte-modderkruiper",
    "url": "https://aquariumvissenwinkel.nl/product/half-gestreepte-modderkruiper",
    "naam": "Half Gestreepte Modderkruiper",
-   "categorie": "Overige vissen",
+   "categorie": "Modderkruipers",
    "beschrijving": "Oranje met donkere halve banden en vooral &#8217;s nachts actief: deze Half Gestreepte Modderkruiper graaft graag en wil een groep van minstens 5 op een zachte zandbodem.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/acanthophthalmus-semicinctus-pangio-kuhlii-kuhli-loach.png"
@@ -3931,8 +3931,8 @@
    "prijs": "3.65",
    "voorraad": "OutOfStock",
    "eigenschappen": {
-    "Latijnse naam": "Clithon corona",
-    "Herkomst": "Azië",
+    "Latijnse naam": "Vittina natalensis",
+    "Herkomst": "Afrika",
     "Familie": "Neritidae",
     "Lengte": "2.5 cm",
     "Temperatuur": "21,5 °C",
@@ -3947,7 +3947,7 @@
    "id": "avw-rode-rio",
    "url": "https://aquariumvissenwinkel.nl/product/rode-rio",
    "naam": "Rode Rio",
-   "categorie": "Overige vissen",
+   "categorie": "Tetra's",
    "beschrijving": "Zilverig voorlijf, vuurrood naar achteren en twee donkere streepjes achter de kieuw. De Rode Rio is zeer vreedzaam in een groep van minstens 8, vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Rode-Rio.jpg"
@@ -3983,8 +3983,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -4007,7 +4007,7 @@
     "Latijnse naam": "Boraras maculatus",
     "Herkomst": "Azië",
     "Familie": "Danionidae",
-    "Lengte": "3.5 cm",
+    "Lengte": "2.5 cm",
     "Temperatuur": "24 °C",
     "PH-waarde": "6.0 – 6.5",
     "Dieet": "Omnivoor",
@@ -4156,7 +4156,7 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Acestrorhamphidae",
     "Lengte": "3 cm",
-    "Temperatuur": "25 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "6.5 – 7.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
@@ -4169,7 +4169,7 @@
    "id": "avw-rode-minor",
    "url": "https://aquariumvissenwinkel.nl/product/rode-minor",
    "naam": "Rode Minor",
-   "categorie": "Overige vissen",
+   "categorie": "Tetra's",
    "beschrijving": "Felrood en energiek, met een pittig randje: in een te kleine groep bijt hij aan vinnen. Kies een grote groep met stevige, snelle medebewoners, vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Rode-Minor.jpg"
@@ -4231,7 +4231,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Waterlaag": "Middenboven",
@@ -4270,7 +4270,7 @@
    "categorie": "Tetra's",
    "beschrijving": "Blauwpaars glanzend met een donkere lengteband; mannetjes hebben iets langere rug- en aarsvinnen. Vreedzaam in een groep van minstens 6, in een aquarium vanaf 60 cm.",
    "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/kerri.png"
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/keizertetra-blauw.png"
    ],
    "prijs": "2.90",
    "voorraad": "InStock",
@@ -4354,7 +4354,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -4440,7 +4440,7 @@
   {
    "id": "avw-citroen-tetra",
    "url": "https://aquariumvissenwinkel.nl/product/citroen-tetra",
-   "naam": "Citroen Tetra",
+   "naam": "Citroentetra",
    "categorie": "Tetra's",
    "beschrijving": "Lichtgeel doorschijnend, met een geel-zwart gerande aarsvin en een rood bovendeel van het oog. Zeer vreedzaam in een groep van minstens 8, vanaf 60 cm.",
    "fotos": [
@@ -4466,10 +4466,10 @@
    "id": "avw-afrikaans-blauwoogje",
    "url": "https://aquariumvissenwinkel.nl/product/afrikaans-blauwoogje",
    "naam": "Afrikaans Blauwoogje",
-   "categorie": "Overige vissen",
+   "categorie": "Tandkarpers",
    "beschrijving": "Helderblauw oplichtende ogen verraden deze kleine tandkarper. Hij zwemt in een groep vlak onder het wateroppervlak en springt, dus dek de bak (vanaf 60 cm) af.",
    "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/afrikaans_blauwoogje_3.jpg"
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/afrikaans-blauwoogje.png"
    ],
    "prijs": "3.25",
    "voorraad": "InStock",
@@ -4524,7 +4524,7 @@
    "prijs": "2.50",
    "voorraad": "InStock",
    "eigenschappen": {
-    "Latijnse naam": "Puntius titteya",
+    "Latijnse naam": "Rohanella titteya, voorheen Puntius titteya",
     "Herkomst": "Azië",
     "Familie": "Cyprinidae",
     "Lengte": "6 cm",
@@ -4565,7 +4565,7 @@
   {
    "id": "avw-keizer-tetra",
    "url": "https://aquariumvissenwinkel.nl/product/keizer-tetra",
-   "naam": "Keizer Tetra",
+   "naam": "Keizertetra",
    "categorie": "Tetra's",
    "beschrijving": "Brede zwarte lengteband en bij mannetjes een drietandige staart. De keizertetra is vreedzaam en gedijt in een groep van minstens 6, in een aquarium vanaf 90 cm.",
    "fotos": [
@@ -4774,13 +4774,13 @@
     "Latijnse naam": "Pterophyllum scalare",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "25 °C",
+    "Lengte": "15 cm",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenboven",
-    "Aquarium": "90 cm of groter"
+    "Aquarium": "100 cm of groter"
    }
   },
   {
@@ -4810,7 +4810,7 @@
    "id": "avw-tandkarper",
    "url": "https://aquariumvissenwinkel.nl/product/tandkarper",
    "naam": "Tandkarper Gardneri",
-   "categorie": "Overige vissen",
+   "categorie": "Tandkarpers",
    "beschrijving": "Staalblauwe killivis met rode stippen, vooral de mannetjes schitteren. Mannen zijn onderling fel: houd één man met enkele vrouwtjes in een afgedekte bak vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Tandkarper.jpg"
@@ -4831,9 +4831,9 @@
    }
   },
   {
-   "id": "avw-regenboogzalm",
-   "url": "https://aquariumvissenwinkel.nl/product/regenboogzalm",
-   "naam": "Regenboogzalm Boesemani",
+   "id": "avw-regenboogvis-boesemani",
+   "url": "https://aquariumvissenwinkel.nl/product/regenboogvis-boesemani",
+   "naam": "Regenboogvis Boesemani",
    "categorie": "Regenboogvissen",
    "beschrijving": "Voor blauw, achter oranjegeel: de tweekleurige Boesemani is een van de bekendste regenboogvissen. Actief en vreedzaam in een groep, in een aquarium vanaf 100 cm met hard water.",
    "fotos": [
@@ -4945,8 +4945,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -4958,7 +4958,7 @@
    "id": "avw-oranje-dwerg-kreeft",
    "url": "https://aquariumvissenwinkel.nl/product/oranje-dwerg-kreeft",
    "naam": "Oranje Dwerg Kreeft",
-   "categorie": "Overige vissen",
+   "categorie": "Garnalen",
    "beschrijving": "Feloranje dwergkreeftje dat de bodem afstruint. Laat vissen meestal met rust, maar pakt garnalen en slakken; zorg voor veel schuilplekken in een bak vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/cambarellus_patzcuarensis_sp._orange_2.jpg"
@@ -4982,7 +4982,7 @@
    "id": "avw-black-molly",
    "url": "https://aquariumvissenwinkel.nl/product/black-molly",
    "naam": "Black Molly",
-   "categorie": "Overige vissen",
+   "categorie": "Molly's",
    "beschrijving": "Helemaal zwart en nieuwsgierig: de Black Molly is een bekende levendbarende gezelschapsvis. Hij wil hard, kalkrijk water; houd meerdere vrouwtjes per man in een bak vanaf 80 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/black_molly_1.png"
@@ -5003,10 +5003,35 @@
    }
   },
   {
+   "id": "avw-pauwooggrondel",
+   "url": "https://aquariumvissenwinkel.nl/product/pauwooggrondel",
+   "naam": "Pauwooggrondel",
+   "categorie": "Gobies",
+   "beschrijving": "Herkenbaar aan de donkere oogvlek op de staartwortel en een blauwpaars lijf met rode stippen. Houd minstens 2 van deze rustige grondels samen in een bak vanaf 60 cm met deksel.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2025/01/pauwoog-gobio.jpg"
+   ],
+   "prijs": "6.50",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Tateurndina ocellicauda",
+    "Herkomst": "Oceanië",
+    "Familie": "Eleotridae",
+    "Lengte": "7.5 cm",
+    "Temperatuur": "24 °C",
+    "PH-waarde": "7.0 – 7.5",
+    "Dieet": "Carnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Middenonder",
+    "Aquarium": "60 cm of groter",
+    "Groep": "Minstens 2 samen"
+   }
+  },
+  {
    "id": "avw-black-molly-sluier",
    "url": "https://aquariumvissenwinkel.nl/product/black-molly-sluier",
    "naam": "Black Molly Sluier",
-   "categorie": "Overige vissen",
+   "categorie": "Molly's",
    "beschrijving": "Diepzwart met sierlijke sluiervinnen komt deze Black Molly het best tot zijn recht in hard water. Mannetjes kunnen fel zijn, dus kies meerdere vrouwtjes per man, vanaf 80 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/black_molly_sluier.png"
@@ -5029,7 +5054,7 @@
   {
    "id": "avw-diamant-zalm",
    "url": "https://aquariumvissenwinkel.nl/product/diamant-zalm",
-   "naam": "Diamant Zalm",
+   "naam": "Diamantzalm",
    "categorie": "Zalmen",
    "beschrijving": "Glinsterende schubben die als diamantjes oplichten, en bij oudere mannetjes lange vinnen. De Diamant Zalm is vreedzaam in een groep en houdt van gedempt licht, vanaf 80 cm.",
    "fotos": [
@@ -5066,8 +5091,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -5090,12 +5115,36 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Boven",
+    "Aquarium": "60 cm of groter"
+   }
+  },
+  {
+   "id": "avw-platy-rainbow",
+   "url": "https://aquariumvissenwinkel.nl/product/platy-rainbow",
+   "naam": "Platy Rainbow",
+   "categorie": "Platies",
+   "beschrijving": "Levendbarende platy in een bonte mix van kleuren. Zeer vreedzaam en makkelijk in de omgang; houd meer vrouwtjes dan mannen in een bak vanaf 60 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Platy-Rainbow.jpg"
+   ],
+   "prijs": "3.40",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Xiphophorus maculatus",
+    "Herkomst": "Midden-Amerika",
+    "Familie": "Poeciliidae",
+    "Lengte": "6 cm",
+    "Temperatuur": "23 °C",
+    "PH-waarde": "7.0 – 8.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
+    "Waterlaag": "Midden",
     "Aquarium": "60 cm of groter"
    }
   },
@@ -5127,7 +5176,7 @@
   {
    "id": "avw-net-botia",
    "url": "https://aquariumvissenwinkel.nl/product/net-botia",
-   "naam": "Net Botia",
+   "naam": "Netbotia",
    "categorie": "Botia's",
    "beschrijving": "Een donker netpatroon op een lichte basis maakt deze botia herkenbaar. Sociale, actieve bodemvis voor een groep, met schuilplekken en een dekruit, vanaf 100 cm.",
    "fotos": [
@@ -5145,7 +5194,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
     "Waterlaag": "Bodem",
-    "Aquarium": "100 cm of groter",
+    "Aquarium": "120 cm of groter",
     "Groep": "Minstens 5 samen"
    }
   },
@@ -5165,37 +5214,12 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Midden",
     "Aquarium": "60 cm of groter"
-   }
-  },
-  {
-   "id": "avw-pauwoog-gobio",
-   "url": "https://aquariumvissenwinkel.nl/product/pauwoog-gobio",
-   "naam": "Pauwoog Gobio",
-   "categorie": "Gobies",
-   "beschrijving": "Herkenbaar aan de donkere oogvlek op de staartwortel en een blauwpaars lijf met rode stippen. Houd minstens 2 van deze rustige grondels samen in een bak vanaf 60 cm met deksel.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2025/01/pauwoog-gobio.jpg"
-   ],
-   "prijs": "6.50",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Tateurndina ocellicauda",
-    "Herkomst": "Oceanië",
-    "Familie": "Eleotridae",
-    "Lengte": "7.5 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "7.0 – 7.5",
-    "Dieet": "Carnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Middenonder",
-    "Aquarium": "60 cm of groter",
-    "Groep": "Minstens 2 samen"
    }
   },
   {
@@ -5226,8 +5250,8 @@
   {
    "id": "avw-knor-gourami",
    "url": "https://aquariumvissenwinkel.nl/product/knor-gourami",
-   "naam": "Knor Gourami",
-   "categorie": "Labyrinth vissen",
+   "naam": "Knorgourami",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Een dwerggoerami van 4 cm die zachte knorgeluiden maakt. Houd er minstens 2 samen, met rustige en even kleine medebewoners, in een aquarium vanaf 80 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/knor-gourami-1.png"
@@ -5252,7 +5276,7 @@
    "id": "avw-goud-gourami",
    "url": "https://aquariumvissenwinkel.nl/product/goud-gourami",
    "naam": "Goud Gourami",
-   "categorie": "Labyrinth vissen",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Goudgeel en met lange, draadvormige buikvinnen is deze goerami snel herkend. Mannetjes kunnen fel jagen, zeker bij het broeden; kies een bak vanaf 100 cm met verstopplekken.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/goud-gourami-2.png"
@@ -5275,7 +5299,7 @@
   {
    "id": "avw-neontetra-blue-eye-gold",
    "url": "https://aquariumvissenwinkel.nl/product/neontetra-blue-eye-gold",
-   "naam": "Neontetra Blue Eye Gold",
+   "naam": "Neon Tetra Blue Eye Gold",
    "categorie": "Tetra's",
    "beschrijving": "Deze kweekvorm van de neontetra heeft een goudgeel lijf en blauwe ogen. Hij komt het best tot zijn recht in een groep van minstens 8, in een aquarium vanaf 80 cm.",
    "fotos": [
@@ -5323,30 +5347,6 @@
    }
   },
   {
-   "id": "avw-platy-rainbow",
-   "url": "https://aquariumvissenwinkel.nl/product/platy-rainbow",
-   "naam": "Platy Rainbow",
-   "categorie": "Platies",
-   "beschrijving": "Levendbarende platy in een bonte mix van kleuren. Zeer vreedzaam en makkelijk in de omgang; houd meer vrouwtjes dan mannen in een bak vanaf 60 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Platy-Rainbow.jpg"
-   ],
-   "prijs": "3.40",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Xiphophorus maculatus",
-    "Herkomst": "Midden-Amerika",
-    "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
-    "PH-waarde": "7.0 – 8.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Midden",
-    "Aquarium": "60 cm of groter"
-   }
-  },
-  {
    "id": "avw-otocinclus-arnoldi",
    "url": "https://aquariumvissenwinkel.nl/product/otocinclus-arnoldi",
    "naam": "Otocinclus Arnoldi",
@@ -5387,7 +5387,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -5448,7 +5448,7 @@
   {
    "id": "avw-clown-botia",
    "url": "https://aquariumvissenwinkel.nl/product/clown-botia",
-   "naam": "Clown Botia",
+   "naam": "Clownbotia",
    "categorie": "Botia's",
    "beschrijving": "Clownbotia&#8217;s vallen op met hun oranje lijf en drie brede zwarte banden. Ze worden groot en leven in een groep van minstens 5, in een aquarium vanaf 180 cm.",
    "fotos": [
@@ -5474,7 +5474,7 @@
    "id": "avw-diamant-gourami-pair",
    "url": "https://aquariumvissenwinkel.nl/product/diamant-gourami-pair",
    "naam": "Diamant Gourami",
-   "categorie": "Labyrinth vissen",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Een parelmoerglans van talloze lichte stippen maakt deze goerami bijzonder. Een van de vreedzaamste goerami&#8217;s, voor een beplant aquarium vanaf 80 cm met schuilplekken.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/diamant-gourami-pair.png"
@@ -5498,10 +5498,10 @@
    "id": "avw-paradijsvis",
    "url": "https://aquariumvissenwinkel.nl/product/paradijsvis",
    "naam": "Paradijsvis",
-   "categorie": "Labyrinth vissen",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Blauwrode dwarsstrepen, lange vinnen en een schuimnest aan het wateroppervlak. De paradijsvis houd je als paar, nooit twee mannen samen, in een aquarium vanaf 80 cm.",
    "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/macro-opercularis_blue_red.jpg"
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/paradijsvis.png"
    ],
    "prijs": "6.10",
    "voorraad": "InStock",
@@ -5558,7 +5558,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -5607,7 +5607,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -5631,7 +5631,7 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
     "Lengte": "15 cm",
-    "Temperatuur": "24 °C",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -5690,6 +5690,27 @@
    }
   },
   {
+   "id": "avw-sera-vipagran-granules-100-ml",
+   "url": "https://aquariumvissenwinkel.nl/product/sera-vipagran-granules-100-ml",
+   "naam": "Sera Vipagran Granules 100 ml",
+   "categorie": "Visvoer",
+   "beschrijving": "Sera Vipagran Granules Granulaat, 100 ml.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/11/sera-vipagran-granules-100-ml.jpg"
+   ],
+   "prijs": "5.59",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Voor": "Alle tropische vissen",
+    "Vorm": "Granulaat",
+    "Zinkt of drijft": "Langzaam zinkend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "100 ml"
+   }
+  },
+  {
    "id": "avw-bijtje",
    "url": "https://aquariumvissenwinkel.nl/product/bijtje",
    "naam": "Bijtje",
@@ -5729,26 +5750,13 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Midden",
     "Aquarium": "60 cm of groter"
    }
-  },
-  {
-   "id": "avw-sera-vipagran-granules-100-ml",
-   "url": "https://aquariumvissenwinkel.nl/product/sera-vipagran-granules-100-ml",
-   "naam": "Sera Vipagran Granules 100 ml",
-   "categorie": "Visvoer",
-   "beschrijving": "Sera Vipagran Granules Granulaat, 100 ml.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/11/sera-vipagran-granules-100-ml.jpg"
-   ],
-   "prijs": "5.59",
-   "voorraad": "InStock",
-   "eigenschappen": {}
   },
   {
    "id": "avw-colisa-lalia",
@@ -5816,7 +5824,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -5863,8 +5871,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -5875,7 +5883,7 @@
   {
    "id": "avw-haaivin-barbeel",
    "url": "https://aquariumvissenwinkel.nl/product/haaivin-barbeel",
-   "naam": "Haaivin Barbeel",
+   "naam": "Haaivinbarbeel",
    "categorie": "Barbelen",
    "beschrijving": "Zilveren lijf en zwart omrande vinnen, gebouwd als een haaitje. Hij wordt erg groot en zwemt in een groep van minstens 5 door een aquarium vanaf 240 cm.",
    "fotos": [
@@ -5963,7 +5971,7 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
     "Lengte": "15 cm",
-    "Temperatuur": "25 °C",
+    "Temperatuur": "27 °C",
     "PH-waarde": "7.0 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -6016,7 +6024,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Bodem",
-    "Aquarium": "60 cm of groter",
+    "Aquarium": "40 cm of groter",
     "Groep": "Minstens 10 samen"
    }
   },
@@ -6061,7 +6069,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -6085,18 +6093,18 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
     "Lengte": "15 cm",
-    "Temperatuur": "25 °C",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenonder",
-    "Aquarium": "90 cm of groter"
+    "Aquarium": "100 cm of groter"
    }
   },
   {
    "id": "avw-platy-goud",
    "url": "https://aquariumvissenwinkel.nl/product/platy-goud",
-   "naam": "Xiphophorus Maculatus Gold",
+   "naam": "Platy Goud",
    "categorie": "Platies",
    "beschrijving": "Goudgele platy met een compact lijf en een rustig karakter. Makkelijk levendbarend; houd meer vrouwtjes dan mannen, in een gezelschapsaquarium vanaf 60 cm.",
    "fotos": [
@@ -6109,12 +6117,37 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Midden",
     "Aquarium": "60 cm of groter"
+   }
+  },
+  {
+   "id": "avw-slakkenetende-slak",
+   "url": "https://aquariumvissenwinkel.nl/product/slakkenetende-slak",
+   "naam": "Slakkenetende Slak",
+   "categorie": "Slakken",
+   "beschrijving": "Geel-bruin gestreepte roofslak uit Zuidoost-Azië die kleine slakken zoals posthoorn- en torenslakken opeet. Schelp circa 2 cm, laat planten met rust.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/10/slakkenetende-slak.png"
+   ],
+   "prijs": "4.10",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Anentome helena",
+    "Herkomst": "Azië",
+    "Familie": "Nassariidae",
+    "Lengte": "2 cm",
+    "Temperatuur": "23,5 °C",
+    "PH-waarde": "6.5 – 8.0",
+    "Dieet": "Carnivoor",
+    "Voeding": "Levend voer, Diepvriesvoer, Rode muggenlarven, Granulaat",
+    "Waterlaag": "Bodem",
+    "Aquarium": "40 cm of groter",
+    "Groep": "Minstens 3 samen"
    }
   },
   {
@@ -6124,7 +6157,7 @@
    "categorie": "Tetra's",
    "beschrijving": "Een zwarte lengtestreep die in de onderste staartlob afbuigt, als een hockeystick. Deze vreedzame tetra zwemt het liefst in een groep van minstens 6, in een bak vanaf 80 cm.",
    "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/hockeystick-thayeria-boehlkei.png"
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/hockeystick.png"
    ],
    "prijs": "3.25",
    "voorraad": "InStock",
@@ -6182,38 +6215,13 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Boven",
     "Aquarium": "60 cm of groter"
-   }
-  },
-  {
-   "id": "avw-slakkenetende-slak",
-   "url": "https://aquariumvissenwinkel.nl/product/slakkenetende-slak",
-   "naam": "Slakkenetende Slak",
-   "categorie": "Slakken",
-   "beschrijving": "Geel-bruin gestreepte roofslak uit Zuidoost-Azië die kleine slakken zoals posthoorn- en torenslakken opeet. Schelp circa 2 cm, laat planten met rust.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/10/slakkenetende-slak.png"
-   ],
-   "prijs": "4.10",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Anentome helena",
-    "Herkomst": "Azië",
-    "Familie": "Nassariidae",
-    "Lengte": "2 cm",
-    "Temperatuur": "23,5 °C",
-    "PH-waarde": "6.5 – 8.0",
-    "Dieet": "Carnivoor",
-    "Voeding": "Levend voer, Diepvriesvoer, Rode muggenlarven, Granulaat",
-    "Waterlaag": "Bodem",
-    "Aquarium": "40 cm of groter",
-    "Groep": "Minstens 3 samen"
    }
   },
   {
@@ -6232,7 +6240,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -6252,7 +6260,7 @@
    "prijs": "7.35",
    "voorraad": "InStock",
    "eigenschappen": {
-    "Latijnse naam": "Pseudotropheus Mixed",
+    "Latijnse naam": "Pseudotropheus sp. (mix)",
     "Herkomst": "Afrika",
     "Familie": "Cichlidae",
     "Lengte": "12 cm",
@@ -6265,9 +6273,9 @@
    }
   },
   {
-   "id": "avw-regenboogzalm-praecox",
-   "url": "https://aquariumvissenwinkel.nl/product/regenboogzalm-praecox",
-   "naam": "Regenboogzalm Praecox",
+   "id": "avw-regenboogvis-praecox",
+   "url": "https://aquariumvissenwinkel.nl/product/regenboogvis-praecox",
+   "naam": "Regenboogvis Praecox",
    "categorie": "Regenboogvissen",
    "beschrijving": "Neonblauwe schubben en bij mannetjes rode vinnen: de Regenboogzalm Praecox is een kleine, zeer vreedzame regenboogvis. Wat schrikachtig, dus het best in een groep, vanaf 80 cm.",
    "fotos": [
@@ -6304,8 +6312,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -6316,7 +6324,7 @@
   {
    "id": "avw-malawicichlide",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide",
-   "naam": "Malawicichlide Afra",
+   "naam": "Malawi Cichlide Afra",
    "categorie": "Cichliden",
    "beschrijving": "Cynotilapia afra is een kleurrijke mbuna met een fel temperament naar soortgenoten. Houd een man met meerdere vrouwtjes tussen andere mbuna, vanaf 100 cm.",
    "fotos": [
@@ -6377,13 +6385,13 @@
     "Latijnse naam": "Pterophyllum scalare",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "25 °C",
+    "Lengte": "15 cm",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenonder",
-    "Aquarium": "90 cm of groter"
+    "Aquarium": "100 cm of groter"
    }
   },
   {
@@ -6464,7 +6472,7 @@
    "id": "avw-roodstaart-labeo",
    "url": "https://aquariumvissenwinkel.nl/product/roodstaart-labeo",
    "naam": "Roodstaart Labeo",
-   "categorie": "Overige vissen",
+   "categorie": "Barbelen",
    "beschrijving": "Fluweelzwart met een vuurrode staart, dat contrast valt direct op. Hij wordt met de leeftijd territorialer: houd er één, zonder andere bodembewoners, vanaf 100 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/Roodstaart-Labeo.jpg"
@@ -6499,7 +6507,7 @@
     "Latijnse naam": "Botia kubotai",
     "Herkomst": "Azië",
     "Familie": "Botiidae",
-    "Lengte": "12 cm",
+    "Lengte": "15 cm",
     "Temperatuur": "24 °C",
     "PH-waarde": "7.0 – 7.5",
     "Dieet": "Omnivoor",
@@ -6524,8 +6532,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -6597,8 +6605,8 @@
     "Herkomst": "Azië",
     "Familie": "Atyidae",
     "Lengte": "3.5 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "6.5 – 7.5",
+    "Temperatuur": "22,5 °C",
+    "PH-waarde": "6.0 – 7.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Bodem",
@@ -6609,7 +6617,7 @@
    "id": "avw-potloodvisje",
    "url": "https://aquariumvissenwinkel.nl/product/potloodvisje",
    "naam": "Nannostomus Beckfordi Rood",
-   "categorie": "Overige vissen",
+   "categorie": "Zalmen",
    "beschrijving": "Deze rode vorm van de gouden potloodvis zwemt rustig horizontaal tussen de planten. Mannetjes kibbelen onderling, dus houd ze in een groep, in een aquarium vanaf 80 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/rood_potloodvisje_beckfordi.jpg"
@@ -6645,8 +6653,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -6707,7 +6715,7 @@
    "id": "avw-ballon-molly-lyretail-mix",
    "url": "https://aquariumvissenwinkel.nl/product/ballon-molly-lyretail-mix",
    "naam": "Ballon Molly Lyretail Mix",
-   "categorie": "Overige vissen",
+   "categorie": "Molly's",
    "beschrijving": "Een rond ballonlijf met een liervormige staart, in gemengde kleuren. Mannetjes kunnen elkaar opjagen, dus kies meer vrouwtjes en een bak vanaf 80 cm met hard water.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/ballon_molly_lyretail_mix_6.jpg"
@@ -6731,7 +6739,7 @@
    "id": "avw-potloodvisje-wild",
    "url": "https://aquariumvissenwinkel.nl/product/potloodvisje-wild",
    "naam": "Nannostomus Marginatus",
-   "categorie": "Overige vissen",
+   "categorie": "Zalmen",
    "beschrijving": "Een van de kleinste potloodvissen, met donkere lengtestrepen en rode vlekjes in de vinnen. Schuw en vreedzaam, dus het best in een groep met even kleine, rustige medebewoners.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/nannostomus_marginatus_wild.jpg"
@@ -6842,13 +6850,13 @@
     "Latijnse naam": "Pterophyllum scalare",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "25 °C",
+    "Lengte": "15 cm",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenonder",
-    "Aquarium": "90 cm of groter"
+    "Aquarium": "100 cm of groter"
    }
   },
   {
@@ -6866,13 +6874,13 @@
     "Latijnse naam": "Pterophyllum scalare",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "25 °C",
+    "Lengte": "15 cm",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenonder",
-    "Aquarium": "90 cm of groter"
+    "Aquarium": "100 cm of groter"
    }
   },
   {
@@ -6890,8 +6898,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -6928,7 +6936,7 @@
    "id": "avw-siamese-kempvis-man-super-delta",
    "url": "https://aquariumvissenwinkel.nl/product/siamese-kempvis-man-super-delta",
    "naam": "Siamese Kempvis Man Super Delta",
-   "categorie": "Labyrinth vissen",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Een wijd uitwaaierende staart in felle kleuren maakt deze betta meteen herkenbaar. Kempvismannen houd je alleen, nooit twee samen, in een rustige bak vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Siamese-kempvis-man-super-delta.jpg"
@@ -7022,10 +7030,35 @@
    }
   },
   {
+   "id": "avw-schijfzalm-zaagzalm",
+   "url": "https://aquariumvissenwinkel.nl/product/schijfzalm-zaagzalm",
+   "naam": "Schijfzalm",
+   "categorie": "Zalmen",
+   "beschrijving": "Een hoog, schijfvormig zilveren lijf: de Schijfzalm is een van de soorten die als zilveren dollar wordt verkocht. Hij eet zachte planten en hoort in een groep, vanaf 180 cm.",
+   "fotos": [
+    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Schijfzalm.jpg"
+   ],
+   "prijs": "10.00",
+   "voorraad": "InStock",
+   "eigenschappen": {
+    "Latijnse naam": "Metynnis hypsauchen",
+    "Herkomst": "Zuid-Amerika",
+    "Familie": "Serrasalmidae",
+    "Lengte": "12 cm",
+    "Temperatuur": "24 °C",
+    "PH-waarde": "6.0 – 7.0",
+    "Dieet": "Omnivoor",
+    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
+    "Waterlaag": "Midden",
+    "Aquarium": "180 cm of groter",
+    "Groep": "Minstens 5 samen"
+   }
+  },
+  {
    "id": "avw-lichtvisje",
    "url": "https://aquariumvissenwinkel.nl/product/lichtvisje",
    "naam": "Lichtvisje",
-   "categorie": "Overige vissen",
+   "categorie": "Tetra's",
    "beschrijving": "Twee lichtende vlekjes, bij oog en staartwortel, gaven hem de bijnaam koplampvisje. Een levendige, vreedzame scholenvis voor een groep van minstens 6, vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/lichtvisje.jpeg"
@@ -7050,7 +7083,7 @@
    "id": "avw-siamese-kempvis-man",
    "url": "https://aquariumvissenwinkel.nl/product/siamese-kempvis-man",
    "naam": "Siamese Kempvis Man Crown Tail",
-   "categorie": "Labyrinth vissen",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Vinnen met stekelige, kroonachtige uitlopers maken deze betta direct herkenbaar. Houd hem als enige kempvisman, in een rustige, afgedekte bak vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Siamese-kempvis-man-crown-tail.jpg"
@@ -7098,7 +7131,7 @@
    "id": "avw-marmer-gourami",
    "url": "https://aquariumvissenwinkel.nl/product/marmer-gourami",
    "naam": "Marmer Gourami",
-   "categorie": "Labyrinth vissen",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Een labyrintvis van 12 cm, blauw met een donkere marmering. Mannetjes kunnen fel territoriaal worden, dus kies robuuste medebewoners en een bak vanaf 100 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/marmer-gourami.png"
@@ -7122,7 +7155,7 @@
    "id": "avw-ballon-molly-mix",
    "url": "https://aquariumvissenwinkel.nl/product/ballon-molly-mix",
    "naam": "Ballon Molly Mix",
-   "categorie": "Overige vissen",
+   "categorie": "Molly's",
    "beschrijving": "Ballon molly&#8217;s hebben een kort, rond lijf en komen in deze mix in verschillende kleuren. Een vreedzame levendbarende voor een aquarium vanaf 80 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/09/ballon-molly-mix.jpeg"
@@ -7153,7 +7186,15 @@
    ],
    "prijs": "6.09",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Discus",
+    "Vorm": "Granulaat",
+    "Zinkt of drijft": "Langzaam zinkend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "100 ml"
+   }
   },
   {
    "id": "avw-hypostomus-plecostomus-gold",
@@ -7180,9 +7221,9 @@
    }
   },
   {
-   "id": "avw-honinggourami-mary-goud",
-   "url": "https://aquariumvissenwinkel.nl/product/honinggourami-mary-goud",
-   "naam": "Dwerg Gourami Cobalt Bleu",
+   "id": "avw-dwerggourami-cobalt-blue",
+   "url": "https://aquariumvissenwinkel.nl/product/dwerggourami-cobalt-blue",
+   "naam": "Dwerg Gourami Cobalt Blue",
    "categorie": "Gourami",
    "beschrijving": "Door kweek bijna helemaal kobaltblauw gekleurde dwerggoerami. Rustig maar territoriaal, dus liefst één mannetje in een beplant aquarium vanaf 80 cm.",
    "fotos": [
@@ -7401,9 +7442,9 @@
    }
   },
   {
-   "id": "avw-blue-rainbow-fish",
-   "url": "https://aquariumvissenwinkel.nl/product/blue-rainbow-fish",
-   "naam": "Blue Rainbow Fish",
+   "id": "avw-regenboogvis-lacustris",
+   "url": "https://aquariumvissenwinkel.nl/product/regenboogvis-lacustris",
+   "naam": "Regenboogvis Lacustris",
    "categorie": "Regenboogvissen",
    "beschrijving": "Turquoiseblauw met een glans die meekleurt met het licht: deze regenboogvis komt uit het Kutubumeer. Actief en vreedzaam in een groep, voor hard water in een bak vanaf 100 cm.",
    "fotos": [
@@ -7416,8 +7457,8 @@
     "Herkomst": "Oceanië",
     "Familie": "Melanotaeniidae",
     "Lengte": "12 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "7.8 – 9.0",
+    "Temperatuur": "22,5 °C",
+    "PH-waarde": "7.0 – 9.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Midden",
@@ -7520,7 +7561,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
     "Waterlaag": "Bodem",
-    "Aquarium": "60 cm of groter",
+    "Aquarium": "80 cm of groter",
     "Groep": "Minstens 6 samen"
    }
   },
@@ -7578,7 +7619,7 @@
    "id": "avw-hoogvinkarper-zilver",
    "url": "https://aquariumvissenwinkel.nl/product/hoogvinkarper-zilver",
    "naam": "Hoogvinkarper Zilver",
-   "categorie": "Overige vissen",
+   "categorie": "Molly's",
    "beschrijving": "Een zilverglanzend lijf en, bij het mannetje, een grote zeilvormige rugvin. Deze zeilvinmolly wil hard water, meerdere vrouwtjes per man en een aquarium vanaf 90 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/hoogvinkarper_zilver_5.png"
@@ -7650,7 +7691,7 @@
   {
    "id": "avw-malawicichlide-zebra",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide-zebra",
-   "naam": "Malawicichlide Zebra",
+   "naam": "Malawi Cichlide Zebra",
    "categorie": "Cichliden",
    "beschrijving": "Blauw met zwarte dwarsbanden of juist oranje: de Malawicichlide Zebra komt in meerdere kleurvormen voor. Een van de agressievere mbuna, dus per man meerdere vrouwtjes, vanaf 120 cm.",
    "fotos": [
@@ -7674,7 +7715,7 @@
   {
    "id": "avw-malawicichlide-auratus",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide-auratus",
-   "naam": "Malawicichlide Auratus",
+   "naam": "Malawi Cichlide Auratus",
    "categorie": "Cichliden",
    "beschrijving": "Vrouwtjes goudgeel met zwarte lengtestrepen, mannen donker gekleurd. De auratus is een felle mbuna: een man met meerdere vrouwtjes, in een Malawibak vanaf 120 cm.",
    "fotos": [
@@ -7710,8 +7751,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -7723,7 +7764,7 @@
    "id": "avw-albino-labeo",
    "url": "https://aquariumvissenwinkel.nl/product/albino-labeo",
    "naam": "Albino Labeo",
-   "categorie": "Overige vissen",
+   "categorie": "Barbelen",
    "beschrijving": "Een wit tot roze lijf met rode vinnen maakt deze labeo goed zichtbaar. Met de jaren wordt hij fel territoriaal, dus houd er één, in een aquarium vanaf 100 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/albino.png"
@@ -7772,7 +7813,7 @@
    "id": "avw-apistogramma-macmasteri",
    "url": "https://aquariumvissenwinkel.nl/product/apistogramma-macmasteri",
    "naam": "Apistogramma Macmasteri",
-   "categorie": "Cichliden",
+   "categorie": "Dwergcichliden",
    "beschrijving": "Mannetjes van deze dwergcichlide pronken met een roodgezoomde staart. Houd een paar in een bak vanaf 100 cm met schuilplekken en zacht, iets zuur water.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/apistogramma-macmasteri.png"
@@ -7882,7 +7923,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -7906,7 +7947,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -7989,8 +8030,8 @@
   {
    "id": "avw-hoogvin-karper-groen",
    "url": "https://aquariumvissenwinkel.nl/product/hoogvin-karper-groen",
-   "naam": "Hoogvin Karper Groen",
-   "categorie": "Overige vissen",
+   "naam": "Hoogvinkarper Groen",
+   "categorie": "Molly's",
    "beschrijving": "Een groenige glans en de hoge zeilvin van het mannetje maken deze Hoogvin Karper bijzonder. Vreedzaam in hard water, met meer vrouwtjes dan mannen, in een bak vanaf 90 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/green_pairs_1.png"
@@ -8025,8 +8066,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -8045,7 +8086,15 @@
    ],
    "prijs": "23.59",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Cichliden",
+    "Vorm": "Sticks",
+    "Zinkt of drijft": "Drijvend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "1000 ml"
+   }
   },
   {
    "id": "avw-hypostomus-plecostomus-gold-stripe",
@@ -8106,13 +8155,21 @@
    ],
    "prijs": "8.99",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Alle tropische vissen",
+    "Vorm": "Granulaat",
+    "Zinkt of drijft": "Langzaam zinkend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "250 ml"
+   }
   },
   {
    "id": "avw-siamese-kempvis-vrouw",
    "url": "https://aquariumvissenwinkel.nl/product/siamese-kempvis-vrouw",
    "naam": "Siamese Kempvis Vrouw",
-   "categorie": "Labyrinth vissen",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Het vrouwtje van de Siamese kempvis heeft kortere vinnen dan het mannetje en een rustiger karakter, maar is wel kleurrijk. Past in een beplant aquarium vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/l_betta_20splendens_20female.jpg"
@@ -8173,7 +8230,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -8182,34 +8239,9 @@
    }
   },
   {
-   "id": "avw-schijfzalm-zaagzalm",
-   "url": "https://aquariumvissenwinkel.nl/product/schijfzalm-zaagzalm",
-   "naam": "Schijfzalm",
-   "categorie": "Zalmen",
-   "beschrijving": "Een hoog, schijfvormig zilveren lijf: de Schijfzalm is een van de soorten die als zilveren dollar wordt verkocht. Hij eet zachte planten en hoort in een groep, vanaf 180 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Schijfzalm.jpg"
-   ],
-   "prijs": "10.00",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Metynnis hypsauchen",
-    "Herkomst": "Zuid-Amerika",
-    "Familie": "Serrasalmidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "24 °C",
-    "PH-waarde": "6.0 – 7.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
-    "Waterlaag": "Midden",
-    "Aquarium": "180 cm of groter",
-    "Groep": "Minstens 5 samen"
-   }
-  },
-  {
    "id": "avw-malawicichlide-crabro",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide-crabro",
-   "naam": "Malawicichlide Crabro",
+   "naam": "Malawi Cichlide Crabro",
    "categorie": "Cichliden",
    "beschrijving": "Geel met donkere banden, en daarom ook bumblebee cichlide genoemd. De Crabro is een felle mbuna voor wie ervaring heeft met Malawi&#8217;s: per man meerdere vrouwtjes, vanaf 100 cm.",
    "fotos": [
@@ -8245,8 +8277,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -8265,7 +8297,15 @@
    ],
    "prijs": "6.89",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Jonge vissen",
+    "Vorm": "Granulaat",
+    "Zinkt of drijft": "Langzaam zinkend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "100 ml"
+   }
   },
   {
    "id": "avw-farlowella-acus",
@@ -8343,7 +8383,7 @@
    "id": "avw-apistogramma-cacatuoides",
    "url": "https://aquariumvissenwinkel.nl/product/apistogramma-cacatuoides",
    "naam": "Apistogramma Cacatuoides",
-   "categorie": "Cichliden",
+   "categorie": "Dwergcichliden",
    "beschrijving": "Dwergcichlide met lange vinnen, ook wel kakadu-dwergcichlide genoemd. Mannen worden 7,5 cm, vrouwen 5 cm. Past met één koppel in een bak vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/11/apistogramma-cacatuoides.png"
@@ -8379,7 +8419,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -8452,8 +8492,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -8462,8 +8502,8 @@
    }
   },
   {
-   "id": "avw-colombo-fermsee",
-   "url": "https://aquariumvissenwinkel.nl/product/colombo-fermsee",
+   "id": "avw-colombo-femsee",
+   "url": "https://aquariumvissenwinkel.nl/product/colombo-femsee",
    "naam": "Colombo Femsee",
    "categorie": "Vismedicijnen",
    "beschrijving": "Femsee is werkzaam tegen schimmel (Saprolegnia) en witte stip (Ichthyophthirius). Witte stip is te herkennen aan kleine witte stippen op kop en lichaam. Schimmel ziet eruit als witte tot groene wat achtige plukken.",
@@ -8472,7 +8512,9 @@
    ],
    "prijs": "16.49",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Merk": "Colombo"
+   }
   },
   {
    "id": "avw-sera-discus-granules-250-ml",
@@ -8485,7 +8527,15 @@
    ],
    "prijs": "12.49",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Discus",
+    "Vorm": "Granulaat",
+    "Zinkt of drijft": "Langzaam zinkend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "250 ml"
+   }
   },
   {
    "id": "avw-lamprologus-compressiceps-red-fin",
@@ -8516,18 +8566,26 @@
    "url": "https://aquariumvissenwinkel.nl/product/sera-vipagran-baby-granules-50-ml",
    "naam": "Sera Vipagran Baby Granules 50 ml",
    "categorie": "Visvoer",
-   "beschrijving": "Sera Vipagran Granules Granulaat, 50 ml.",
+   "beschrijving": "Sera Vipagran Baby Granules, fijn granulaat voor jonge en kleinblijvende vissen, 50 ml.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/11/sera-vipagran-baby-granules-50-ml.jpg"
    ],
    "prijs": "4.59",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Jonge vissen",
+    "Vorm": "Granulaat",
+    "Zinkt of drijft": "Langzaam zinkend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "50 ml"
+   }
   },
   {
    "id": "avw-dolfijncichlide",
    "url": "https://aquariumvissenwinkel.nl/product/dolfijncichlide",
-   "naam": "Dolfijncichlide",
+   "naam": "Dolfijn Cichlide",
    "categorie": "Cichliden",
    "beschrijving": "Blauw, met een opvallende bult op het voorhoofd en een rustig karakter. Houd een man met meerdere vrouwtjes, niet bij mbuna, in een aquarium vanaf 150 cm.",
    "fotos": [
@@ -8619,30 +8677,6 @@
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Midden",
     "Aquarium": "120 cm of groter"
-   }
-  },
-  {
-   "id": "avw-platy-red",
-   "url": "https://aquariumvissenwinkel.nl/product/platy-red",
-   "naam": "Xiphophorus Maculatus Tuxedo",
-   "categorie": "Platies",
-   "beschrijving": "Geel lijf met een zwart achterlijf: een vreedzame, makkelijke platy. Mannetjes jagen veel, dus houd meer vrouwtjes dan mannen, in een bak vanaf 60 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/Xiphophorus-maculatus-tuxedo-yellow-platy-tuxedo-geel.jpg"
-   ],
-   "prijs": "3.35",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Xiphophorus maculatus",
-    "Herkomst": "Midden-Amerika",
-    "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
-    "PH-waarde": "7.0 – 8.0",
-    "Dieet": "Omnivoor",
-    "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
-    "Waterlaag": "Midden",
-    "Aquarium": "60 cm of groter"
    }
   },
   {
@@ -8782,19 +8816,19 @@
     "Latijnse naam": "Pterophyllum scalare",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "25 °C",
+    "Lengte": "15 cm",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenonder",
-    "Aquarium": "90 cm of groter"
+    "Aquarium": "100 cm of groter"
    }
   },
   {
    "id": "avw-malawicichlide-2",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide-2",
-   "naam": "Malawicichlide Acei",
+   "naam": "Malawi Cichlide Acei",
    "categorie": "Cichliden",
    "beschrijving": "Een van de vreedzaamste mbuna: deze acei zwemt in het Malawimeer in scholen rond boomstammen. Paarsblauw met gele staart, voor hard water in een aquarium vanaf 90 cm.",
    "fotos": [
@@ -8819,7 +8853,7 @@
    "id": "avw-hoogvinkarper-zilver-sluier",
    "url": "https://aquariumvissenwinkel.nl/product/hoogvinkarper-zilver-sluier",
    "naam": "Hoogvinkarper Zilver Sluier",
-   "categorie": "Overige vissen",
+   "categorie": "Molly's",
    "beschrijving": "Lange sluiervinnen maken deze zilveren zeilvinmolly extra sierlijk. Vreedzaam, maar wel voor middelhard tot hard water; houd per man meerdere vrouwtjes in een bak vanaf 90 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/poecilia_velifera_silver.png"
@@ -8922,7 +8956,15 @@
    ],
    "prijs": "10.99",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Bodemvissen en meervallen, Algeneters en L-nummers",
+    "Vorm": "Chips",
+    "Zinkt of drijft": "Zinkend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "250 ml"
+   }
   },
   {
    "id": "avw-sera-vipachips-wafers-100-ml",
@@ -8935,7 +8977,15 @@
    ],
    "prijs": "5.69",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Bodemvissen en meervallen, Algeneters en L-nummers",
+    "Vorm": "Chips",
+    "Zinkt of drijft": "Zinkend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "100 ml"
+   }
   },
   {
    "id": "avw-neon-tetra-voordeelset-10-stuks",
@@ -8953,7 +9003,7 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Acestrorhamphidae",
     "Lengte": "4 cm",
-    "Temperatuur": "25 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "6.0 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
@@ -9000,8 +9050,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -9024,8 +9074,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -9083,31 +9133,6 @@
    }
   },
   {
-   "id": "avw-tanganyikacichlide-duboisi",
-   "url": "https://aquariumvissenwinkel.nl/product/tanganyikacichlide-duboisi",
-   "naam": "Tanganyikacichlide Duboisi",
-   "categorie": "Cichliden",
-   "beschrijving": "Jonge Duboisi&#8217;s zijn zwart met witte stippen; volwassen krijgen ze een blauwe kop en een lichte band over het lijf. Houd een groep van minstens 15, in een bak vanaf 150 cm.",
-   "fotos": [
-    "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/06/Tanganyikacichlide-duboisi.jpg"
-   ],
-   "prijs": "17.80",
-   "voorraad": "InStock",
-   "eigenschappen": {
-    "Latijnse naam": "Tropheus duboisi",
-    "Herkomst": "Afrika",
-    "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "25 °C",
-    "PH-waarde": "7.8 – 9.0",
-    "Dieet": "Herbivoor",
-    "Voeding": "Algen, Diepvriesvoer, Granulaat",
-    "Waterlaag": "Middenonder",
-    "Aquarium": "150 cm of groter",
-    "Groep": "Minstens 15 samen"
-   }
-  },
-  {
    "id": "avw-discusvis-marlboro-red",
    "url": "https://aquariumvissenwinkel.nl/product/discusvis-marlboro-red",
    "naam": "Discusvis Marlboro Red",
@@ -9147,19 +9172,19 @@
     "Latijnse naam": "Pterophyllum scalare",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
-    "Lengte": "12 cm",
-    "Temperatuur": "25 °C",
+    "Lengte": "15 cm",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Middenonder",
-    "Aquarium": "90 cm of groter"
+    "Aquarium": "100 cm of groter"
    }
   },
   {
    "id": "avw-malawicichlide-venustus",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide-venustus",
-   "naam": "Malawicichlide Venustus",
+   "naam": "Malawi Cichlide Venustus",
    "categorie": "Cichliden",
    "beschrijving": "Zijn vlekkenpatroon is camouflage: de Venustus ligt half ingegraven in het zand op de loer naar kleine vissen. Tot 25 cm, alleen of met meerdere vrouwtjes, vanaf 110 cm.",
    "fotos": [
@@ -9191,7 +9216,15 @@
    ],
    "prijs": "6.39",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Goudvissen",
+    "Vorm": "Vlokken",
+    "Zinkt of drijft": "Drijvend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "250 ml"
+   }
   },
   {
    "id": "avw-sera-goldfish-flakes-100-ml",
@@ -9204,7 +9237,15 @@
    ],
    "prijs": "3.09",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Goudvissen",
+    "Vorm": "Vlokken",
+    "Zinkt of drijft": "Drijvend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "100 ml"
+   }
   },
   {
    "id": "avw-sera-vipan-tropical-flakes-1000-ml",
@@ -9217,7 +9258,15 @@
    ],
    "prijs": "11.95",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Alle tropische vissen",
+    "Vorm": "Vlokken",
+    "Zinkt of drijft": "Drijvend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "1000 ml"
+   }
   },
   {
    "id": "avw-sera-vipan-tropical-flakes-250-ml",
@@ -9230,7 +9279,15 @@
    ],
    "prijs": "6.49",
    "voorraad": "InStock",
-   "eigenschappen": {}
+   "eigenschappen": {
+    "Voor": "Alle tropische vissen",
+    "Vorm": "Vlokken",
+    "Zinkt of drijft": "Drijvend",
+    "Soort voer": "Hoofdvoer",
+    "Samenstelling": "Gemengd",
+    "Merk": "Sera",
+    "Inhoud": "250 ml"
+   }
   },
   {
    "id": "avw-corydoras-elegans",
@@ -9335,7 +9392,7 @@
    "id": "avw-zwarte-indische-modderkruiper",
    "url": "https://aquariumvissenwinkel.nl/product/zwarte-indische-modderkruiper",
    "naam": "Zwarte Indische Modderkruiper",
-   "categorie": "Overige vissen",
+   "categorie": "Modderkruipers",
    "beschrijving": "Slanke, effen donkere bodemvis van 8 cm die graag in het zand graaft. Rustig, en het liefst in een groep van minstens zes.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/11/zwarte-indische-modderkruiper.png"
@@ -9418,7 +9475,7 @@
    "prijs": "5.10",
    "voorraad": "InStock",
    "eigenschappen": {
-    "Latijnse naam": "Neocaridina davidi",
+    "Latijnse naam": "Neocaridina davidi, voorheen Neocaridina heteropoda",
     "Herkomst": "Azië",
     "Familie": "Atyidae",
     "Lengte": "2.5 cm",
@@ -9427,7 +9484,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Granulaat, Algen, Bodemvuil",
     "Waterlaag": "Bodem",
-    "Aquarium": "30 cm of groter",
+    "Aquarium": "40 cm of groter",
     "Groep": "Minstens 5 samen"
    }
   },
@@ -9811,7 +9868,7 @@
    "prijs": "4.25",
    "voorraad": "InStock",
    "eigenschappen": {
-    "Latijnse naam": "Neocaridina davidi",
+    "Latijnse naam": "Neocaridina davidi, voorheen Neocaridina heteropoda",
     "Herkomst": "Azië",
     "Familie": "Atyidae",
     "Lengte": "3.5 cm",
@@ -9820,7 +9877,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Bodem",
-    "Aquarium": "60 cm of groter",
+    "Aquarium": "40 cm of groter",
     "Groep": "Minstens 10 samen"
    }
   },
@@ -9828,7 +9885,7 @@
    "id": "avw-rode-rio-diamant",
    "url": "https://aquariumvissenwinkel.nl/product/rode-rio-diamant",
    "naam": "Rode Rio Diamant",
-   "categorie": "Overige vissen",
+   "categorie": "Tetra's",
    "beschrijving": "Rode rio met glinsterende schubben die het licht als kleine spiegeltjes terugkaatsen. Rustig scholertje van 4 cm, houd ze in een groep van 8 in een bak vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/09/rode-rio-diamant.jpeg"
@@ -9865,7 +9922,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -9889,7 +9946,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -9912,8 +9969,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -9942,7 +9999,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Granulaat, Diepvriesvoer, Levend voer, Rode muggenlarven",
     "Waterlaag": "Bodem",
-    "Aquarium": "100 cm of groter",
+    "Aquarium": "90 cm of groter",
     "Groep": "Minstens 6 samen"
    }
   },
@@ -10134,7 +10191,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -10158,7 +10215,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -10182,7 +10239,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -10218,7 +10275,7 @@
    "id": "avw-zilver-gourami",
    "url": "https://aquariumvissenwinkel.nl/product/zilver-gourami",
    "naam": "Maanlicht Gourami",
-   "categorie": "Labyrinth vissen",
+   "categorie": "Labyrintvissen",
    "beschrijving": "Zilvergrijs met een zachte glans en lange, draadvormige buikvinnen. Deze wat schrikachtige goerami wordt 15 cm en eet te kleine visjes op; kies een bak vanaf 100 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/zilver-gourami.jpg"
@@ -10404,7 +10461,7 @@
     "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
     "Lengte": "15 cm",
-    "Temperatuur": "25 °C",
+    "Temperatuur": "27 °C",
     "PH-waarde": "6.5 – 7.5",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -10440,7 +10497,7 @@
    "id": "avw-hoogvinkarper-zilver-roodbloem",
    "url": "https://aquariumvissenwinkel.nl/product/hoogvinkarper-zilver-roodbloem",
    "naam": "Hoogvinkarper Silver Red Flower",
-   "categorie": "Overige vissen",
+   "categorie": "Molly's",
    "beschrijving": "De Hoogvinkarper Zilver Roodbloem (Poecilia velifera Silver Red Flower) is een vreedzame en opvallende levendbarende vis die goed gedijt in rustige gezelschapsaquaria.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/hoogvinkarper-zilver-roodbloem.jpeg"
@@ -10463,8 +10520,8 @@
   {
    "id": "avw-oranje-neon-sluier-molly",
    "url": "https://aquariumvissenwinkel.nl/product/oranje-neon-sluier-molly",
-   "naam": "Hoogvin Karper Oranje",
-   "categorie": "Overige vissen",
+   "naam": "Hoogvinkarper Oranje",
+   "categorie": "Molly's",
    "beschrijving": "Fel oranje, met een hoge rugvin bij het mannetje: dat is de Hoogvin Karper Oranje. Mannetjes kunnen haantjesgedrag vertonen, dus houd meer vrouwtjes in hard water, vanaf 80 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/md_hoogvinkarper_rood_nieuw.jpg"
@@ -10521,7 +10578,7 @@
    "prijs": "3.00",
    "voorraad": "OutOfStock",
    "eigenschappen": {
-    "Latijnse naam": "Neocaridina davidi",
+    "Latijnse naam": "Neocaridina davidi, voorheen Neocaridina heteropoda",
     "Herkomst": "Azië",
     "Familie": "Atyidae",
     "Lengte": "3.5 cm",
@@ -10530,7 +10587,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Bodem",
-    "Aquarium": "60 cm of groter"
+    "Aquarium": "40 cm of groter"
    }
   },
   {
@@ -10554,14 +10611,14 @@
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Bodemvuil, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
     "Waterlaag": "Bodem",
-    "Aquarium": "60 cm of groter",
+    "Aquarium": "40 cm of groter",
     "Groep": "Minstens 10 samen"
    }
   },
   {
    "id": "avw-malawicichlide-lombardoi",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide-lombardoi",
-   "naam": "Malawicichlide Lombardoi",
+   "naam": "Malawi Cichlide Lombardoi",
    "categorie": "Cichliden",
    "beschrijving": "Bij de Lombardoi zijn de mannetjes geel en de vrouwtjes blauw met dwarsbanden. Zeer territoriaal, dus alleen met robuuste mbuna en per man meerdere vrouwtjes, vanaf 150 cm.",
    "fotos": [
@@ -10585,7 +10642,7 @@
   {
    "id": "avw-malawicichlide-exasperatus",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide-exasperatus",
-   "naam": "Malawicichlide Exasperatus",
+   "naam": "Malawi Cichlide Exasperatus",
    "categorie": "Cichliden",
    "beschrijving": "Deze mbuna uit het Malawimeer, ook bekend als Pearl of Likoma, is territoriaal naar soortgenoten maar voor een mbuna relatief mild. Voor een Malawibak vanaf 120 cm.",
    "fotos": [
@@ -10621,8 +10678,8 @@
     "Latijnse naam": "Poecilia reticulata",
     "Herkomst": "Zuid-Amerika",
     "Familie": "Poeciliidae",
-    "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Lengte": "4 cm",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -10658,7 +10715,7 @@
    "id": "avw-blokvisje",
    "url": "https://aquariumvissenwinkel.nl/product/blokvisje",
    "naam": "Blokvisje",
-   "categorie": "Overige vissen",
+   "categorie": "Tandkarpers",
    "beschrijving": "Het Blokvisje (Jordanella floridae) is een levendige, eigenzinnige verschijning in het aquarium, bekend om zijn nieuwsgierigheid, compacte bouw en opvallend groene glans.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2026/10/blokvisje.png"
@@ -10706,7 +10763,7 @@
   {
    "id": "avw-gele-congozalm",
    "url": "https://aquariumvissenwinkel.nl/product/gele-congozalm",
-   "naam": "Gele Congozalm",
+   "naam": "Gele Kongozalm",
    "categorie": "Zalmen",
    "beschrijving": "Een Afrikaanse zalm met een gele glans en levendig zwemgedrag. Wat schuw, dus op zijn best in een groep met mannen en vrouwen, in een aquarium vanaf 120 cm.",
    "fotos": [
@@ -10741,7 +10798,7 @@
    "voorraad": "OutOfStock",
    "eigenschappen": {
     "Latijnse naam": "Heros severus",
-    "Herkomst": "Midden-Amerika",
+    "Herkomst": "Zuid-Amerika",
     "Familie": "Cichlidae",
     "Lengte": "15 cm",
     "Temperatuur": "25 °C",
@@ -10798,7 +10855,7 @@
     "Dieet": "Omnivoor",
     "Voeding": "Diepvriesvoer, Granulaat, Levend voer",
     "Waterlaag": "Bodem",
-    "Aquarium": "100 cm of groter",
+    "Aquarium": "120 cm of groter",
     "Groep": "Minstens 4 samen"
    }
   },
@@ -10906,7 +10963,7 @@
    "id": "avw-blinde-grotten-vis",
    "url": "https://aquariumvissenwinkel.nl/product/blinde-grotten-vis",
    "naam": "Blinde Grotten Vis",
-   "categorie": "Overige vissen",
+   "categorie": "Tetra's",
    "beschrijving": "Zonder ogen vindt deze roze-witte grottenvis zijn voer op gevoel. Sterk en vreedzaam, het liefst met minstens 4 soortgenoten in een aquarium vanaf 60 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/blinde_grottenvis.jpg"
@@ -10955,7 +11012,7 @@
    "id": "avw-aplocheilus-lineatus-tandkarper",
    "url": "https://aquariumvissenwinkel.nl/product/aplocheilus-lineatus-tandkarper",
    "naam": "Aplocheilus Lineatus Gold",
-   "categorie": "Overige vissen",
+   "categorie": "Tandkarpers",
    "beschrijving": "Deze goudgele killivis patrouilleert vlak onder het wateroppervlak en jaagt daar op zijn voer. Geschikt voor een aquarium vanaf 80 cm met een goed sluitende afdekking.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/02/aplocheilus_lineatus_1.png"
@@ -11038,7 +11095,7 @@
     "Herkomst": "Midden-Amerika",
     "Familie": "Poeciliidae",
     "Lengte": "6 cm",
-    "Temperatuur": "21,5 °C",
+    "Temperatuur": "23 °C",
     "PH-waarde": "7.0 – 8.0",
     "Dieet": "Omnivoor",
     "Voeding": "Algen, Diepvriesvoer, Granulaat, Levend voer, Rode muggenlarven, Zwarte muggenlarven",
@@ -11124,7 +11181,7 @@
   {
    "id": "avw-malawicichlide-cyan-maingano",
    "url": "https://aquariumvissenwinkel.nl/product/malawicichlide-cyan-maingano",
-   "naam": "Malawicichlide Cyan.Maingano",
+   "naam": "Malawi Cichlide Cyan.Maingano",
    "categorie": "Cichliden",
    "beschrijving": "Blauw-zwarte lengtestrepen maken de Maingano direct herkenbaar. Een pittige mbuna, fel naar soortgenoten, voor een Malawibak vanaf 120 cm met een man op meerdere vrouwtjes.",
    "fotos": [
@@ -11149,7 +11206,7 @@
    "id": "avw-oranje-staart-labeo",
    "url": "https://aquariumvissenwinkel.nl/product/oranje-staart-labeo",
    "naam": "Oranje Staart Labeo",
-   "categorie": "Overige vissen",
+   "categorie": "Barbelen",
    "beschrijving": "Grijsblauw lijf met oranjerode vinnen en een sterk territoriaal karakter. Houd er maar één, niet samen met corydoras of gelijkende soorten, in een ruim aquarium.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/03/oranje_labeo.jpg"
@@ -11173,7 +11230,7 @@
    "id": "avw-hoogvinkarper-mix-red-leopard",
    "url": "https://aquariumvissenwinkel.nl/product/hoogvinkarper-mix-red-leopard",
    "naam": "Hoogvinkarper Mix Red Leopard",
-   "categorie": "Overige vissen",
+   "categorie": "Molly's",
    "beschrijving": "Rood gevlekt en met een hoge zeilvin: deze zeilvinmolly&#8217;s worden als mix geleverd. Houd ze in hard water, met meer vrouwtjes dan mannetjes, in een aquarium vanaf 90 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/05/poecilia-velifera-red-leopard-sailfin-molly-002.jpg"
@@ -11197,7 +11254,7 @@
    "id": "avw-weeraal",
    "url": "https://aquariumvissenwinkel.nl/product/weeraal",
    "naam": "Weeraal Goud",
-   "categorie": "Overige vissen",
+   "categorie": "Modderkruipers",
    "beschrijving": "Goudkleurig, graaflustig en vaak half in het zand: de Weeraal Goud is een koudwaterbodemvis, geen tropische soort. Hij eet ook jongen en zeer kleine visjes; kies een bak vanaf 120 cm.",
    "fotos": [
     "https://backend.aquariumvissenwinkel.nl/wp-content/uploads/2013/04/Weeraal-goud.jpg"
@@ -11219,8 +11276,126 @@
   }
  ],
  "gd_opgehaald": "2026-11-11 16:47",
- "avw_opgehaald": "2026-11-19 15:29",
+ "avw_opgehaald": "2026-11-20 15:06",
  "logboek": [
+  {
+   "datum": "2026-11-20 15:06",
+   "vorige": "2026-11-19 15:29",
+   "nieuw": [
+    {
+     "id": "avw-regenboogvis-boesemani",
+     "naam": "Regenboogvis Boesemani",
+     "latijn": "Melanotaenia boesemani",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/regenboogvis-boesemani",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F04%2FRegenboogzalm-Boesemani.jpg&w=640&q=75",
+     "prijs": 12.99
+    },
+    {
+     "id": "avw-pauwooggrondel",
+     "naam": "Pauwooggrondel",
+     "latijn": "Tateurndina ocellicauda",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/pauwooggrondel",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2025%2F01%2Fpauwoog-gobio.jpg&w=640&q=75",
+     "prijs": 6.5
+    },
+    {
+     "id": "avw-regenboogvis-praecox",
+     "naam": "Regenboogvis Praecox",
+     "latijn": "Melanotaenia praecox",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/regenboogvis-praecox",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F04%2FRegenboogzalm-praecox.jpg&w=640&q=75",
+     "prijs": 6.35
+    },
+    {
+     "id": "avw-dwerggourami-cobalt-blue",
+     "naam": "Dwerg Gourami Cobalt Blue",
+     "latijn": "Trichogaster lalius",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/dwerggourami-cobalt-blue",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F03%2Fdwerg_gourami_cobalt_bleu.jpg&w=640&q=75",
+     "prijs": 12.3
+    },
+    {
+     "id": "avw-regenboogvis-lacustris",
+     "naam": "Regenboogvis Lacustris",
+     "latijn": "Melanotaenia lacustris",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/regenboogvis-lacustris",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F04%2Fblue_rainbow_fish.jpg&w=640&q=75",
+     "prijs": 9.5
+    }
+   ],
+   "verwijderd": [
+    {
+     "id": "avw-regenboogzalm",
+     "naam": "Regenboogzalm Boesemani",
+     "latijn": "Melanotaenia boesemani",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/regenboogzalm",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F04%2FRegenboogzalm-Boesemani.jpg&w=640&q=75",
+     "prijs": 12.99
+    },
+    {
+     "id": "avw-pauwoog-gobio",
+     "naam": "Pauwoog Gobio",
+     "latijn": "Tateurndina ocellicauda",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/pauwoog-gobio",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2025%2F01%2Fpauwoog-gobio.jpg&w=640&q=75",
+     "prijs": 6.5
+    },
+    {
+     "id": "avw-regenboogzalm-praecox",
+     "naam": "Regenboogzalm Praecox",
+     "latijn": "Melanotaenia praecox",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/regenboogzalm-praecox",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F04%2FRegenboogzalm-praecox.jpg&w=640&q=75",
+     "prijs": 6.35
+    },
+    {
+     "id": "avw-honinggourami-mary-goud",
+     "naam": "Dwerg Gourami Cobalt Bleu",
+     "latijn": "Trichogaster lalius",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/honinggourami-mary-goud",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F03%2Fdwerg_gourami_cobalt_bleu.jpg&w=640&q=75",
+     "prijs": 12.3
+    },
+    {
+     "id": "avw-blue-rainbow-fish",
+     "naam": "Blue Rainbow Fish",
+     "latijn": "Melanotaenia lacustris",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/blue-rainbow-fish",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F04%2Fblue_rainbow_fish.jpg&w=640&q=75",
+     "prijs": 9.5
+    },
+    {
+     "id": "avw-platy-red",
+     "naam": "Xiphophorus Maculatus Tuxedo",
+     "latijn": "Xiphophorus maculatus",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/platy-red",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F02%2FXiphophorus-maculatus-tuxedo-yellow-platy-tuxedo-geel.jpg&w=640&q=75",
+     "prijs": 3.35
+    },
+    {
+     "id": "avw-tanganyikacichlide-duboisi",
+     "naam": "Tanganyikacichlide Duboisi",
+     "latijn": "Tropheus duboisi",
+     "winkel": "Aquariumvissenwinkel",
+     "url": "https://aquariumvissenwinkel.nl/product/tanganyikacichlide-duboisi",
+     "thumb": "https://aquariumvissenwinkel.nl/_next/image?url=https%3A%2F%2Fbackend.aquariumvissenwinkel.nl%2Fwp-content%2Fuploads%2F2013%2F06%2FTanganyikacichlide-duboisi.jpg&w=640&q=75",
+     "prijs": 17.8
+    }
+   ],
+   "uitverkocht": [],
+   "terug": []
+  },
   {
    "datum": "2026-11-16 14:44",
    "vorige": "2026-11-14 13:16",
